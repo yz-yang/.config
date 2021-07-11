@@ -1,0 +1,1209 @@
+8b807c7ed64cc5302ef5da1b88c2ee9f|file:///home/jack/.config/nvim/init.vim|603|3|v|vim
+	lor 
+1a678e857b12fb290c35a9cb34a0ab17|file:///home/jack/.config/nvim/init.vim|410|3|v|vim
+	ug 'dracula/vim'
+	
+	" Status line
+	Plug 'theniceboy/eleline.vim'
+	Plug 'ojroques/vim-scrollstatus'
+	
+	" General Highlighter
+	Plug 'RRethy/vim-hexokinase', { 'do': 'make hexokinase' }
+	Plug 'RRethy/vim-illuminate'
+	
+	" File navigation
+	"Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+	"Plug 'Xuyuanp/nerdtree-git-plugin'
+	Plug 'junegunn/fzf.vim'
+	Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
+	Plug 'kevinhwang91/rnvimr'
+	Plug 'airblade/vim-rooter'
+	Plug 'pechorin/any-jump.vim'
+	
+	" Taglist
+	Plug 'liuchengxu/vista.vim'
+	
+	" Debugger
+	" Plug 'puremourning/vimspector', {'do': './install_gadget.py --enable-c --enable-python --enable-go'}
+	
+	" Auto Complete
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	" Plug 'neoclide/coc.nvim', {'branch': 'release', 'tag': 'v0.0.79'}
+	Plug 'wellle/tmux-complete.vim'
+	
+	" Snippets
+	" Plug 'SirVer/ultisnips'
+	Plug 'theniceboy/vim-snippets'
+	
+	" Undo Tree
+	Plug 'mbbill/undotree'
+	
+	" Git
+	Plug 'theniceboy/vim-gitignore', { 'for': ['gitignore', 'vim-plug'] }
+	Plug 'fszymanski/fzf-gitignore', { 'do': ':UpdateRemotePlugins' }
+	"Plug 'mhinz/vim-signify'
+	Plug 'airblade/vim-gitgutter'
+	Plug 'cohama/agit.vim'
+	Plug 'kdheepak/lazygit.nvim'
+	
+	" Autoformat
+	Plug 'google/vim-maktaba'
+	Plug 'google/vim-codefmt'
+	
+	" Tex
+	" Plug 'lervag/vimtex'
+	
+	" CSharp
+	Plug 'OmniSharp/omnisharp-vim'
+	Plug 'ctrlpvim/ctrlp.vim' , { 'for': ['cs', 'vim-plug'] } " omnisharp-vim dependency
+	
+	" HTML, CSS, JavaScript, Typescript, PHP, JSON, etc.
+	Plug 'elzr/vim-json'
+	Plug 'neoclide/jsonc.vim'
+	Plug 'othree/html5.vim'
+	Plug 'alvan/vim-closetag'
+	" Plug 'hail2u/vim-css3-syntax' " , { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
+	" Plug 'spf13/PIV', { 'for' :['php', 'vim-plug'] }
+	" Plug 'pangloss/vim-javascript', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
+	Plug 'yuezk/vim-js', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
+	" Plug 'MaxMEllon/vim-jsx-pretty', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
+	" Plug 'jelera/vim-javascript-syntax', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
+	"Plug 'jaxbot/browserlink.vim'
+	Plug 'HerringtonDarkholme/yats.vim'
+	" Plug 'posva/vim-vue'
+	" Plug 'evanleck/vim-svelte', {'branch': 'main'}
+	" Plug 'leafOfTree/vim-svelte-plugin'
+	" Plug 'leafgarland/typescript-vim'
+	Plug 'MaxMEllon/vim-jsx-pretty'
+	Plug 'pangloss/vim-javascript'
+	Plug 'leafgarland/typescript-vim'
+	Plug 'peitalin/vim-jsx-typescript'
+	Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+	Plug 'pantharshit00/vim-prisma'
+	
+	" Go
+	Plug 'fatih/vim-go' , { 'for': ['go', 'vim-plug'], 'tag': '*' }
+	
+	" Python
+	" Plug 'tmhedberg/SimpylFold', { 'for' :['python', 'vim-plug'] }
+	Plug 'Vimjas/vim-python-pep8-indent', { 'for' :['python', 'vim-plug'] }
+	Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins', 'for' :['python', 'vim-plug'] }
+	"Plug 'vim-scripts/indentpython.vim', { 'for' :['python', 'vim-plug'] }
+	"Plug 'plytophogy/vim-virtualenv', { 'for' :['python', 'vim-plug'] }
+	Plug 'tweekmonster/braceless.vim', { 'for' :['python', 'vim-plug'] }
+	
+	" Flutter
+	Plug 'dart-lang/dart-vim-plugin'
+	Plug 'f-person/pubspec-assist-nvim', { 'for' : ['pubspec.yaml'] }
+	
+	" Swift
+	Plug 'keith/swift.vim'
+	Plug 'arzg/vim-swift'
+	
+	" Markdown
+	Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
+	Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle', 'for': ['text', 'markdown', 'vim-plug'] }
+	Plug 'mzlogin/vim-markdown-toc', { 'for': ['gitignore', 'markdown', 'vim-plug'] }
+	Plug 'dkarter/bullets.vim'
+	
+	" Other filetypes
+	" Plug 'jceb/vim-orgmode', {'for': ['vim-plug', 'org']}
+	
+	" Editor Enhancement
+	"Plug 'Raimondi/delimitMate'
+	Plug 'jiangmiao/auto-pairs'
+	Plug 'mg979/vim-visual-multi'
+	Plug 'tomtom/tcomment_vim' " in <space>cn to comment a line
+	Plug 'theniceboy/antovim' " gs to switch
+	Plug 'tpope/vim-surround' " type yskw' to wrap the word with '' or type cs'` to change 'word' to `word`
+	Plug 'gcmt/wildfire.vim' " in Visual mode, type k' to select all text in '', or type k) k] k} kp
+	Plug 'junegunn/vim-after-object' " da= to delete what's after =
+	Plug 'godlygeek/tabular' " ga, or :Tabularize <regex> to align
+	Plug 'tpope/vim-capslock'	" Ctrl+L (insert) to toggle capslock
+	Plug 'easymotion/vim-easymotion'
+	" Plug 'Konfekt/FastFold'
+	"Plug 'junegunn/vim-peekaboo'
+	"Plug 'wellle/context.vim'
+	Plug 'svermeulen/vim-subversive'
+	Plug 'theniceboy/argtextobj.vim'
+	Plug 'rhysd/clever-f.vim'
+	Plug 'AndrewRadev/splitjoin.vim'
+	Plug 'theniceboy/pair-maker.vim'
+	Plug 'theniceboy/vim-move'
+	" Plug 'jeffkreeftmeijer/vim-numbertoggle'
+	Plug 'Yggdroot/indentLine'
+	
+	" For general writing
+	" Plug 'junegunn/goyo.vim'
+	"Plug 'reedes/vim-wordy'
+	"Plug 'ron89/thesaurus_query.vim'
+	
+	" Bookmarks
+	" Plug 'MattesGroeger/vim-bookmarks'
+	
+	" Find & Replace
+	Plug 'brooth/far.vim', { 'on': ['F', 'Far', 'Fardo'] }
+	
+	" Documentation
+	"Plug 'KabbAmine/zeavim.vim' " <LEADER>z to find doc
+	
+	" Mini Vim-APP
+	"Plug 'jceb/vim-orgmode'
+	Plug 'mhinz/vim-startify'
+	Plug 'skywind3000/asynctasks.vim'
+	Plug 'skywind3000/asyncrun.vim'
+	
+	" Vim Applications
+	Plug 'itchyny/calendar.vim'
+	
+	" Other visual enhancement
+	Plug 'luochen1990/rainbow'
+	Plug 'mg979/vim-xtabline'
+	Plug 'ryanoasis/vim-devicons'
+	Plug 'wincent/terminus'
+	
+	" Other useful utilities
+	Plug 'lambdalisue/suda.vim' " do stuff like :sudowrite
+	" Plug 'makerj/vim-pdf'
+	"Plug 'xolox/vim-session'
+	"Plug 'xolox/vim-misc' " vim-session dep
+	
+	" Dependencies
+	" Plug 'MarcWeber/vim-addon-mw-utils'
+	" Plug 'kana/vim-textobj-user'
+	" Plug 'roxma/nvim-yarp'
+	
+	
+	call plug#end()
+	set re=0
+	
+	" experimental
+	set lazyredraw
+	"set regexpengine=1
+	
+	
+	" ===
+	" === Dress up my vim
+	" ===
+	set termguicolors " enable true colors support
+	let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+	"set background=dark
+	"let ayucolor="mirage"
+	"let g:oceanic_next_terminal_bold = 1
+	"let g:oceanic_next_terminal_italic = 1
+	"let g:one_allow_italics = 1
+	
+	color dracula
+	"color one
+	"color 
+da144b539325bdc605019d120268bc2f|file:///home/jack/.config/nvim/init.vim|753|20|v|vim
+	own_slow = 0
+	let g:instant_
+630c1c09fc3d8d7d0d39ce3e022c416c|file:///home/jack/.config/nvim/init.vim|511|1|V|vim
+	Plug 'iamcco/markdown-preview.nvim'
+2a304a1348456ccd2234cd71a81bd338|file:///home/jack/.config/nvim/init.vim|1283|11|v|vim
+	link
+0d3f6a32b3e04ce82319656404bb348c|file:///home/jack/.config/nvim/init.vim|236|1|v|vim
+	cnoremap
+fde2a23a9dd867fc6b3d349c5666d3ae|file:///home/jack/note/2021-6-2~6-6/6-2.md|2|1|V|markdown
+	asdasdsdasdasdasda
+72f2f344ef43c1072c083fc14987651c|file:///home/jack/fcitx-problem.md|87|12|v|markdown
+	XDG_CONFIG_HOME
+f58ce553f04b06ac8cb4ae7dc5183dd2|file:///home/jack/fcitx-problem.md|152|115|v|markdown
+	export XMODIFIERS=@im=fcitx
+dab895176adf55813a2eff5cea879468|file:///home/jack/.config/ranger/rifle.conf|175|1|V|cfg
+	ext cbz,  has zathura,      X, flag f = zathura -- "$@"
+c8a573c793189d45be8616911c00a940|file:///home/jack/.config/ranger/rifle.conf|177|1|V|cfg
+	ext md,  has nvim,      X, flag f = nvim -- "$@"
+9d3d0ece402b382f86ee8d02645cbafb|file:///home/jack/.config/ranger/rifle.conf|177|1|V|cfg
+	ext doc, has wps,      X, flag f = wps -- "$@"
+f6ab9b155b2d5c8a92336bf7449d36db|file:///home/jack/.config/ranger/rifle.conf|177|1|V|cfg
+	ext vim,  has nvim,      X, flag f = nvim -- "$@"
+b480838e022104a20d1b70070cf09038|file:///home/jack/.config/ranger/rifle.conf|88|1|V|cfg
+	mime ^text,  label editor = ${VISUAL:-$EDITOR} -- "$@"
+c0ee5afaf143e056aeb33b1a00e81cf1|file:///home/jack/.config/ranger/rifle.conf|89|1|V|cfg
+	mime ^text,  label editor = $EDITOR -- "$@"
+f22e9921bf25a3106decbabd47c68123|file:///home/jack/.config/ranger/plugins/ranger_devicons/README.md|22|29|v|markdown
+	echo "default_linemode devicons" >> $HOME/.config/ranger/rc.conf
+b9a2c7f3f4af8169881e5c87eb5b5e0e|file:///home/jack/.config/ranger/plugins/ranger_devicons/README.md|22|29|v|markdown
+	echo "default_linemod
+16834d1ae75e84f7fac20d730ac1b4b1|file:///home/jack/.config/ranger/rifle.conf|88|1|V|cfg
+	mime ^text, has nvim,							 X, flag f = nvim -- "$@"
+79f3782a7271a738845c79b93e3d9f0d|file:///home/jack/.config/nvim/_machine_specific.vim|6|22|^v|vim
+	'google-chrome-stable'
+1a18477a9a4eff755b0f5b215eb36989|file:///home/jack/.config/nvim/default_configs/_machine_specific_default.vim|12|1|V|vim
+	"let g:mkdp_browserfunc = 'open '
+3f9178c25b78ed8bed19091bcb62e266|file:///home/jack/note/2021-6-2~6-6/6-3.py|11|4|v|python
+	condition
+b04bd2dea2140a480309ffa9e8f0fe08|file:///home/jack/note/2021-6-2~6-6/6-3.py|1|1|V|python
+	from functools import reduce
+	from operator import mul
+	
+	
+	def meth1(n):
+	    return reduce(lambda a, b: a * b, range(1, n + 1))
+	
+	
+	def meth2(n):
+	    return reduce(mul, range(1, n + 1))
+	
+	
+	if __name__ == '__main__':
+	    print(meth1(5))
+	    print(meth2(5))
+77ce554a99c4eca9e6ffdfd47e1651fc|file:///home/jack/note/2021-6-2~6-6/6-3.md|42|1|V|markdown
+	from operator import itemgetter
+	
+	l = ['ydx', 'man', 18, 'nb']
+	a = itemgetter(2, 0)
+	print(a(l))
+b31cee78d779088ee5032cc7edc1bdad|file:///home/jack/note/2021-6-2~6-6/6-3.py|24|1|V|python
+	from collections import namedtuple
+	from operator import attrgetter
+	
+	Demo1 = namedtuple('Demo1', 'name age') #定义一个类，类名:Demo1，属性:name，age
+	toget = attrgetter('name')
+	print(toget(Demo1('ydx', 18)))
+d0d33c63402dfb2c02713a7fd52578c1|file:///home/jack/note/2021-6-2~6-6/6-3.py|33|1|V|python
+	print()
+c4997e62fe2710db6601837140464d7f|file:///home/jack/note/2021-6-2~6-6/6-3.md|73|1|V|markdown
+	我目前的理解是：
+88dde802e5a60ae74e12ef3dc155f030|file:///home/jack/note/2021-6-2~6-6/6-3.py|34|1|V|python
+	from functools import partial
+	from operator import mul
+	
+	new_mul = partial(mul, 2)
+	print(list(map(new_mul, range(1, 11))))
+3b57c32adbaa9a13e18cbc8d0c8fc24a|file:///home/jack/.config/nvim/init.vim|752|1|V|vim
+	" ===
+	" === vim-instant-markdown
+	" ===
+447b7147e84be512208dcc0995d67ebc|file:///home/jack/note/2021-6-2~6-6/6-4.py|1|5|v|python
+	item
+22884db148f0ffb0d830ba431102b0b5|file:///home/jack/note/2021-6-2~6-6/6-4.py|1|6|v|python
+	module
+176aeec546811053b393eb3dc776e169|file:///home/jack/note/2021-6-2~6-6/6-4.py|33|30|V|python
+	        """订单的折扣后的钱数"""
+	        if self.promotion is None:
+	            discount = 0
+	        discount = self.promotion.discount(self)
+c65d57c059b4f4fddcbe9928dbe441b7|file:///home/jack/note/2021-6-2~6-6/6-4.py|34|1|V|python
+	        if self.promotion is None:
+	            discount = 0
+	        discount = self.promotion.discount(self)
+154aece679ea7737b267fbd28eda82bf|file:///home/jack/note/2021-6-2~6-6/6-4.py|33|8|V|python
+	        """订单的折扣后的钱数"""
+	        if self.promotion is None:
+	            discount = 0
+	        else:
+	            discount = self.promotion.discount(self)
+299a100f37a5ed856ba22df6fdb676fa|file:///home/jack/note/2021-6-2~6-6/6-4.py|34|1|V|python
+	        if self.promotion is None:
+	            discount = 0
+	        else:
+	            discount = self.promotion.discount(self)
+7bb0edd98f22430a03b67f853e83c2ca|file:///home/jack/note/2021-6-2~6-6/6-4.py|34|8|V|python
+	        
+75d07faa21dddea4de1d4689d26e307b|file:///home/jack/note/2021-6-2~6-6/6-4.py|1|1|V|python
+	from collections import namedtuple
+	from abc import ABC, abstractmethod
+	
+	# 消费者类(包含姓名和积分两个属性)
+	Custom = namedtuple('Custom', 'name jifen')
+	
+	
+	# 商品类
+	class LineItem:
+	    def __init__(self, product, num, price):
+	        self.product = product
+	        self.num = num
+	        self.price = price
+	
+	    def total(self):
+	        return self.num * self.price
+	
+	
+	# 订单类
+	class Order:
+	    def __init__(self, custom, cart, promotion=None):
+	        self.custom = custom
+	        self.cart = list(cart)
+	        self.promotion = promotion
+	
+	    def total(self):
+	        """订单的实际总钱数"""
+	        if not hasattr(self, '__total'):
+	            self.__total = sum(p.total() for p in self.cart)
+	        return self.__total
+	
+	    def due(self):
+	        """订单的折扣后的钱数"""
+	        return self.total() - self.promotion.discount(
+	            self) if self.promotion is not None else self.total()
+	
+	    def __str__(self):
+	        """使得该类可以被打印输出字符串，__repr__也可以，只不过__repr__方便机器(控制台)输出"""
+	        fmt = '<total: {:.2f} due: {:.2f}'
+	        return fmt.format(self.total(), self.due())
+	
+	
+	# 策略类(计算折扣的方法)，这里将其定义为抽象类,这么做是为了使用 @abstractmethod 装饰器，从而明确表明所用的模式。
+	class Promotion(ABC):
+	    @abstractmethod
+	    def discount(self, order):
+	        """返回折扣的金额"""
+	
+	
+	# 具体的策略类
+	class FidelityPromo(Promotion):
+	    """第一个具体的策略，大于1000积分的用户所有商品打9折"""
+	    def discount(self, order):
+	        return order.total() * .1 if order.custom.jifen > 1000 else 0
+	
+	
+	class BlukItemPromo(Promotion):
+	    """第二个具体的策略，单个商品数量为20个或以上时打8折"""
+	    def discount(self, order):
+	        discount = 0
+	        for item in order.cart:
+	            if item.num >= 20:
+	                discount += item.total() * .2
+	        return discount
+	
+	
+	class LargeOrderPromo(Promotion):
+	    """第三个具体的策略，不同商品的数量在10个或以上打7折"""
+	    def discount(self, order):
+	        return order.total() * .3 if len({item.product for item in order.cart}) >= 10 else 0
+bd4a6c5676505eb6b77f3ec4c8882b47|file:///home/jack/note/2021-6-2~6-6/6-4.py|78|1|V|python
+	demo = [(), (), (), (),]
+68fad3d5bb147c0aaece36f958b56d8b|file:///home/jack/note/2021-6-2~6-6/6-4.py|78|17|^v|python
+	(), (),
+f616ab1797eac8dfd5faadea064ac7f9|file:///home/jack/note/2021-6-2~6-6/6-4.py|74|1|V|python
+	# 创造两个用户
+	ydx = Custom('ydx', 1000)
+	xl = Custom('xl', 0)
+	
+	cart_ydx = [
+	    LineItem('phone', 2, 3000),
+	    LineItem('computer', 3, 5000),
+	    LineItem('tv', 1, 8000)
+	]
+	
+	demo = [('cigrate', 18, 20), ('cup', 14, 30), ('water', 30, 3),
+	        ('cookie', 25, 3), ('meat', 4, 6), ('fire', 2, 3), ('dog', 4, 500),
+	        ('cat', 2, 300), ('element', 10, 200000), ('phone', 3, 6000)]
+	cart_xl = (LineItem(product, num, price) for product, num, price in demo)
+	
+	ydx_o = Order(ydx, cart_ydx, FidelityPromo())
+	xl_o = Order(xl, cart_xl, LargeOrderPromo())
+	
+	print(ydx_o)
+	print(xl_o)
+e9d0ca437742f161b1ab373d6e113883|file:///home/jack/note/2021-6-2~6-6/6-4.md|126|1|V|markdown
+	pass`
+af5d8fa17c96b3dd18935bf829aa74b4|file:///home/jack/note/2021-6-2~6-6/6-4.md|124|1|V|markdown
+	`def FidelityPromo(order):
+5aaebc7fac5440f6bc3617940b0ddddb|file:///home/jack/note/2021-6-2~6-6/6-6.py|8|1|V|python
+	@deco
+	def target():
+	    print('running target()')
+a24d4d03685e9e7fae2b70fa7ce4965b|file:///home/jack/work-place/python-workplace/ui-auto-demo01/tools/prepare/prepare.py|1|1|V|python
+	"""所有功能的前提，打开游览器，连接URL"""
+ef7f24b344cede9dc615511d009d8ba7|file:///home/jack/work-place/python-workplace/ui-auto-demo01/tools/prepare/prepare.py|1|1|V|python
+	from webbrowser import Chrome
+7ae3bd93caba5bff6f92107caec8486c|file:///home/jack/work-place/python-workplace/ui-auto-demo01/tools/prepare/prepare.py|5|1|V|python
+	class Prepare:
+0c2d1b2411ba7aeff5465eaa9e356da3|file:///home/jack/work-place/python-workplace/ui-auto-demo01/business/search.py|1|1|V|python
+	from selenium import webdriver
+	from time import sleep
+	
+	br = webdriver.Chrome(
+	    executable_path=
+	    '/home/jack/work-place/python-workplace/ui-auto-demo01/broswer/chromedriver'
+	)
+	
+	br.get('https://www.baidu.com')
+	
+	sleep(5)
+bd909a7a57394e4f4b02bf68143d3dde|file:///home/jack/work-place/python-workplace/ui-auto-demo01/business/search.py|1|1|V|python
+	from tools.prepare.prepare import *
+67735328feebbeb58301b7c1e897eeee|file:///home/jack/work-place/python-workplace/ui-auto-demo01/business/search.py|1|1|V|python
+	import prepare
+ea83b916b3f52eec32ae6d54d59b4453|file:///home/jack/work-place/python-workplace/ui-auto-demo01/business/search.py|9|5|v|python
+	main()
+0b65eb2a540148032f581529a4611e85|file:///home/jack/work-place/python-workplace/ui-auto-demo01/business/search.py|9|5|V|python
+	    search(f{}, 'albion')
+fc952615a4c5936536b0565e8c71e9f5|file:///home/jack/work-place/python-workplace/ui-auto-demo01/business/search.py|2|1|V|python
+	from config import url_config
+13e2d6ee9f12c6d964afb373aa2ae0f7|file:///home/jack/work-place/python-workplace/ui-auto-demo01/tools/prepare/prepare.py|3|1|V|python
+	import os, sys
+	
+	base_path = os.path.dirname(
+	    os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+	sys.path.append(base_path)
+0c8ba53b6dde9f2ff08c1c41db6ff63e|file:///home/jack/work-place/python-workplace/ui-auto-demo01/business/search.py|1|1|V|python
+	from tools.prepare.prepare import *
+	
+	from config import url_config
+0aba4ae69cc29a1c38dcb0d85b2c4667|file:///home/jack/work-place/python-workplace/ui-auto-demo01/tools/read_yaml.py|4|1|V|python
+	yaml.load(f, Loader=yaml.FullLoader)
+8d1dc3c660433f289282debc4dba780a|file:///home/jack/work-place/python-workplace/ui-auto-demo01/tools/read_yaml.py|4|10|v|python
+	expr
+db2d57ec1a15b45595c064c575f245fa|file:///home/jack/work-place/python-workplace/ui-auto-demo01/tools/read_yaml.py|9|1|V|python
+	request.get()
+a48d661a83bef20fb424e6a84a1909ac|file:///home/jack/work-place/python-workplace/ui-auto-demo01/tools/read_yaml.py|10|1|V|python
+	requests.get('https://www.baidu.com', params=xxx, headers=xxx)
+8e41e132c0014809fc7c6d99010a66d6|file:///home/jack/work-place/python-workplace/ui-auto-demo01/tools/read_yaml.py|2|1|V|python
+	import requests
+379d20697cc0ebe5e5eaea1c10f5464d|file:///home/jack/note/2021-6-2~6-6/6-6.py|15|1|v|python
+	registry = []
+	
+	
+	def register(func):
+	    print('running register(%s)' % func)
+	    registry.append(func)
+	    return func
+	
+	
+	@register
+	def f1():
+	    print('running f1()')
+	
+	
+	@register
+	def f2():
+	    print('running f2()')
+	
+	
+	def f3():
+	    print('running f3()')
+	
+	
+	if __name__ == "__main__":
+	    print('running main()')
+	    print('registry->', registry)
+	    f1()
+	    f2()
+	    f3()
+56a44e729a3eb11f805f250efcb14bb0|file:///home/jack/note/2021-6-7~6-11/6-7.py|7|5|V|python
+	    b = 4
+8024fa0eddffd141d3b0e039ea219135|file:///home/jack/note/2021-6-7~6-11/6-7.py|5|5|V|python
+	    # b = 4
+c7634c26b634ae5b607a12355f0cb671|file:///home/jack/note/2021-6-7~6-11/6-7.py|15|1|V|python
+	s = 'hjhjgu aabc dy'
+5490dcca46fa1648095472668ad83768|file:///home/jack/note/2021-6-7~6-11/6-7.py|15|1|V|python
+	print(s.strip())
+22e2a06de4f51bd760e122ef975014fe|file:///home/jack/note/2021-6-7~6-11/6-7.py|15|1|V|python
+	print(sorted(s))
+2ccc9d19851531d6946497005c03a6e5|file:///home/jack/note/2021-6-7~6-11/6-7.py|15|1|V|python
+	print(s)
+c9de704461b42bf51b555a7455a2d0a2|file:///home/jack/note/2021-6-7~6-11/6-7.py|15|1|V|python
+	print(s.split(' '))
+06b8de75d47e44da63ac69f276286044|file:///home/jack/note/2021-6-7~6-11/6-7.py|15|1|V|python
+	print(list(enumerate(s, 1)))
+0d40cdbb23a7e657d6a20a74a7b86b26|file:///home/jack/note/2021-6-7~6-11/6-7.md|146|1|V|markdown
+	b = 8
+	def f(a):
+	    global b
+	    print(a)
+	    print(b)
+	    b = 4
+	    print(b)
+0647ac4badfdb4bbea51d2d2071ee78e|file:///home/jack/note/2021-6-7~6-11/6-7.md|148|1|V|markdown
+	def f(a):
+	    global b
+	    print(a)
+	    print(b)
+	    b = 4
+	    print(b)
+f555af2b0e35744a7b25d1e0f1f0fff1|file:///home/jack/note/2021-6-7~6-11/6-7.md|147|1|V|markdown
+	b = 8
+72a410d64a40f170b238a360df8f956e|file:///home/jack/note/2021-6-7~6-11/6-7.py|37|14|v|python
+	time.perf_counter()
+d050eb41ff5115c363f196f97c8f42f6|file:///home/jack/note/2021-6-7~6-11/6-7.py|31|1|V|python
+	def recursion(n):
+	    return 1 if n<2 else n*recursion(n-1)
+418e2758fd94e38b7a46aaa9d5698233|file:///home/jack/note/2021-6-7~6-11/6-7.py|28|1|v|python
+	import time
+	
+	
+	def dec(func):
+	    def calculation_time(*args):
+	        t0 = time.perf_counter()
+	        result = func(*args)
+	        consume = time.perf_counter() - t0
+	        print('consume: %.8f, result: %d' % (consume, result))
+	        return result
+	
+	    return calculation_time
+	
+	
+	@dec
+	def recursion(n):
+	    return 1 if n < 2 else n * recursion(n - 1)
+	
+	
+	if __name__ == "__main__":
+	    recursion(5)
+51730efb82776cc531308d76264e17e7|file:///home/jack/work-place/python-workplace/ui-auto-demo01/business/search.py|17|5|V|python
+	    search(url_config.df_url_config['df_url'], 'albion')
+decd142a791dd65d8e472d27fc82807b|file:///home/jack/work-place/python-workplace/ui-auto-demo01/business/search.py|16|5|V|python
+	    ele.click()
+8fa528f5d3c373492a32ff530e57282d|file:///home/jack/work-place/python-workplace/ui-auto-demo01/business/search.py|15|1|V|python
+	    ele.send_keys(content)
+04473eafac40e02884f0778edba61a2f|file:///home/jack/work-place/python-workplace/ui-auto-demo01/test-class/test_search.py|7|6|v|python
+	pytest.mark.parametrize
+f6b0ed32d784ec0df3c6534b341ab346|file:///home/jack/note/2021-6-7~6-11/6-8.md|49|5|V|markdown
+	    content = html.escape(n)
+db84f1697c9979a605ca74cedba13bf5|file:///home/jack/note/2021-6-7~6-11/6-8.md|52|1|V|markdown
+	......
+074a284ba14af76b01c92b44903656a1|file:///home/jack/note/2021-6-7~6-11/6-9.py|6|1|V|python
+	print(r.json())
+59a94ea1d7221684965d8d41fe59b302|file:///home/jack/note/2021-6-7~6-11/6-10.md|23|1|V|markdown
+	def demo(s):
+	    def dec(func):
+	        print('我才是真正起作用的装饰器' + s)
+	        return func
+	    return dec
+	
+	@demo('哈哈')
+	def f():
+	    print('我是被装饰的函数')
+e22d55ae7e6424b18eaf7670d831ebf9|file:///home/jack/note/arch_linux/arch%E7%BB%99cpu%E9%99%8D%E6%B8%A9.md|2|1|V|markdown
+	2. `ps axj` 该命令可以查看所有守护进程
+d919d7c5558b175f0073d7ee09698092|file:///home/jack/note/2021-6-7~6-11/6-11.md|1|1|V|markdown
+	sensors
+	
+	profile
+	
+	thermal
+0baea2f0ae20150db78f58cddac442a9|untitled:2|1|1|V|
+	superuser
+a5410ee37744c574ba5790034ea08f79|file:///home/jack/note/2021-6-12~6-16/6-12.md|26|1|V|markdown
+	charles
+4d35e9069a12d9b35695bb8e87fdb5bc|file:///home/jack/note/2021-6-12~6-16/6-12.md|40|1|V|markdown
+		不可变类型元组的可变性
+5c4e3bffe1cf0dc9e4b3b71bef5375f2|file:///home/jack/note/2021-6-12~6-16/6-12.md|39|2|v|markdown
+	不可变类型元组的可变性
+9c7bb9d9f57e54d8d5595c4b3cb3a0dc|file:///home/jack/note/2021-6-12~6-16/6-12.py|7|1|v|python
+	t = (1, 2, [4, 5])
+	print(id(t))
+	t[-1].append(99)
+	print(t)
+	print(id(t))
+530a7e4a4724887d55fdc82316bc5b8a|file:///home/jack/note/2021-6-12~6-16/6-12.md|51|1|V|markdown
+	t = (1, 2, [4, 5])
+	t[-1].append(99)
+e63aa53003458050d193a1eec57d9057|file:///home/jack/note/2021-6-12~6-16/6-12.py|16|7|v|python
+	id(t))
+664f8d400c3bf8a4de77821569fdc552|file:///home/jack/note/2021-6-12~6-16/6-12.md|79|1|v|markdown
+	(7, 8, 9, 10, 11)
+7ba140a78e8f7d854034babd8f556556|file:///home/jack/note/2021-6-12~6-16/6-12.py|50|1|V|python
+	import copy
+	
+	
+	class Bus:
+	    def __init__(self, passenages=None):
+	        if passenages is None:
+	            self.passenages = []
+	        else:
+	            self.passenages = list(passenages)
+	
+	    def pick(self, name):
+	        self.passenages.append(name)
+	
+	    def drop(self, name):
+	        self.passenages.remove(name)
+	
+	
+	# 实例化一个Bus
+	bus1 = Bus(['1', '2', '3'])
+	# 浅复制bus1
+	bus2 = copy.copy(bus1)
+	# 深复制bus1
+	bus3 = copy.deepcopy(bus1)
+	
+	# 对原对象bus1进行增减乘客操作，来看看深浅副本所受到的影响
+	bus1.pick('4')
+	bus1.drop('1')
+	print(bus1.passenages)
+	print(bus2.passenages)
+	print(bus3.passenages)
+41425eb4857b32fce9f76bd88949fa46|file:///home/jack/note/2021-6-12~6-16/6-12.md|146|177|^v|markdown
+	<font color='red'>
+8534a9e46af4ac17812152f8b21e3ffd|file:///home/jack/note/2021-6-12~6-16/6-13.md|26|1|V|markdown
+	ated
+76bc7a0ae93c0a6e44143daf3b3118cd|file:///home/jack/note/2021-6-12~6-16/6-13.py|29|1|V|python
+	print(bus1.passenages)
+	print(bus2.passenages)
+	print(bus3.passenages)
+0ed97c5fbdbe2c3ca8fce1e3ca6a08ec|file:///home/jack/note/2021-6-12~6-16/6-13.md|24|1|V|markdown
+	class HauntedBus:
+72ad3ba51287d23b1b7ebb2625a743df|file:///home/jack/note/2021-6-12~6-16/6-13.py|11|1|V|python
+	
+	
+	class HauntedBus:
+	    def __init__(self, passenages=[]):
+	        self.passenages = passenages
+	
+	    def pick(self, name):
+	        self.passenages.append(name)
+	
+	    def drop(self, name):
+	        self.passenages.remove(name)
+	
+	
+	bus1 = HauntedBus(['ydx', 'xtt'])
+	bus1.pick('xl')
+	bus1.drop('ydx')
+	print(bus1.passenages)
+	bus2 = HauntedBus()
+	bus2.pick('yx')
+	bus3 = HauntedBus()
+	print(bus1.passenages)
+	print(bus2.passenages)
+	print(bus3.passenages)
+	bus3.pick('yzp')
+	print(bus1.passenages)
+	print(bus2.passenages)
+	print(bus3.passenages)
+c2bb7a63e83442474523cecb3486170d|file:///home/jack/note/2021-6-12~6-16/6-13.md|67|1|V|markdown
+	twilightbus
+2148e9416a9ef8f1ac06c9dc17e3e843|file:///home/jack/note/2021-6-12~6-16/py/6-14.py|2|1|V|python
+	print(a.__name__(
+fd352b68bf83391284e044021cab0339|file:///home/jack/note/2021-6-12~6-16/py/6-14.py|1|1|V|python
+	a = 1
+e6ac515d343d0923df037f34d4f3fafe|file:///home/jack/note/2021-6-12~6-16/py/6-14.py|5|1|V|python
+	print(f.__name__)
+fed1d2aa4ab9cd28dd771492a3bc2f97|file:///home/jack/note/2021-6-12~6-16/py/6-14.py|15|1|V|python
+	array()
+4c043095376efb38acda7e43232488d8|file:///home/jack/note/2021-6-12~6-16/py/6-14.py|48|1|V|python
+	def f():
+	    return (1, 2)
+	
+	
+	a = f()
+	print(type(a))
+1d24e5c0919102941b2eb2f3cd5157a3|file:///home/jack/note/2021-6-12~6-16/py/6-14.py|16|1|V|python
+	# print(chr(97))
+	from array import array
+	import math
+	
+	
+	class Victer:
+	    def __init__(self, x, y):
+	        self.x = float(x)
+	        self.y = float(y)
+	
+	    def __iter__(self):
+	        return (i for i in (self.x, self.y))
+	
+	    def __repr__(self):
+	        return '({}, {})'.format(*self)
+	
+	    def __str__(self):
+	        return str(tuple(self))
+	
+	    def __bytes__(self):
+	        return (bytes(array('d', self)))
+	
+	    def __eq__(self, other):
+	        return tuple(self) == tuple(other)
+	
+	    def __abs__(self):
+	        return math.hypot(*self)
+	
+	    def __bool__(self):
+	        return bool(abs(self))
+	
+	
+	if __name__ == "__main__":
+	    v = Victer(3, 4)
+	    print(repr(v))
+	    print(v)
+	    print(v == (3, 4))
+	    print(abs(v))
+	    print(bool(v))
+c37ec03954a27fde27aae8f68e594858|file:///home/jack/note/2021-6-12~6-16/md/6-14.md|23|1|V|markdown
+	# print(chr(97))
+95b4e9d3ef5e08debf5a0a1dcd9ed272|file:///home/jack/note/2021-6-12~6-16/py/6-14.py|60|1|V|python
+	menv.append(5)
+6acfc1dd16233a915f93eeb4f6f5f8b7|file:///home/jack/note/2021-6-7~6-11/md/6-8.md|9|1|V|markdown
+	裝飾器會在模塊被加載的時候就執行
+dc34d1aa446afb69a3827efd178648b2|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|1|1|V|python
+	class Demo:
+	    @classmethod
+	    def f1(*args):
+	        return args
+	
+	    @staticmethod
+	    def f2(*args):
+	        return args
+	
+	
+	if __name__ == "__main__":
+	    print(Demo.f1())
+	    print(Demo.f1('yzz'))
+	    print(Demo.f2())
+	    print(Demo.f2('yzz'))
+0ebef8dc08bd2fa27067fc902de749b4|file:///home/jack/.config/nvim/md-snippets.vim|17|1|V|vim
+	autocmd Filetype markdown inoremap <buffer> ,l --------<Enter>
+5097898169e4e6e73507c2ce19c1c7db|file:///home/jack/note/2021-6-12~6-16/md/6-16.md|2|1|V|markdown
+	<font color='red'></font> 
+7e1f3a1e9efbf175697c2cc03389b447|file:///home/jack/note/2021-6-12~6-16/md/6-16.md|3|1|V|markdown
+	<font color='red'></font> <++>
+39dd8a855541ae390365e6e39a383b26|file:///home/jack/note/2021-6-12~6-16/md/6-16.md|3|1|V|markdown
+	<font color='red'>asdadsasj</font> 
+9819c53c2a97532553f7782e89dd6270|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|43|1|V|python
+	f()(2)
+70b0cc00a26d2a15b86d046203b26556|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|75|1|V|python
+	from functools import reduce
+	
+	
+	def ac_n(n):
+	    return reduce(lambda a, b: a * b, range(1, n + 1))
+	
+	
+	print(ac_n(5))
+5d9dc21b01ff0e3b0e5571e9e9b425fc|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|75|1|V|python
+	from functools import reduce
+	from operator import mul
+	
+	
+	def ac_n(n):
+	    return reduce(mul, range(1, n + 1))
+	
+	
+	print(ac_n(5))
+4f7f7c12cebb770d0a3089969274e109|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|83|1|V|python
+	print(list(map(lambda n: n + 1, range(10))))
+676dc542e1bfac7d3dd60602f5b698b7|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|84|1|V|python
+	from operator import itemgetter
+	
+	a = itemgetter(3)
+	b = itemgetter(2, 0)
+	l = [2, 32, 33, 44, 1]
+	print(a(l))
+	print(b(l))
+50b1e383590bc63a65321fc8a461f50d|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|90|1|V|python
+	# print(b(l))
+	from operator import attrgetter
+	from collections import namedtuple
+	
+	People = namedtuple('People', 'name age')
+	a = attrgetter('name')
+	b = attrgetter('age')
+	y = People('ydx', 18)
+	print(a(y))
+	print(b(y))
+bdf16553e790ec5963e6cd9830baad34|file:///home/jack/note/2021-6-12~6-16/md/6-16.md|69|1|V|markdown
+	# print(b(l))
+94f97f0315f15df848a51fdeaac41c67|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|115|1|V|python
+	print(f.__closure__)
+23ff57930d3c8c2fb058ed92c7456863|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|100|1|V|python
+	# print(b(y))
+	def f():
+	    l = []
+	
+	    def in_f(n):
+	        l.append(n)
+	        print(l)
+	
+	    return in_f
+	
+	
+	a = f()
+	a(1)
+	a(2)
+	a(15)
+d1019d1a0d4622f0d97af1fc1af823be|file:///home/jack/note/2021-6-12~6-16/md/6-16.md|89|1|V|markdown
+	# print(b(y))
+75a28e71f83f7054b28a74a1b5ac8cc3|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|116|1|V|python
+	def dec(func):
+	    def f():
+	        print('i am f')
+	
+	    return f
+	
+	
+	@dec
+	def f1():
+	    print('i am f1')
+	
+	
+	f1()
+52e09b12a7d456f15fc121010ebe39ff|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|116|1|V|python
+	def dec(s):
+	    def f(func):
+	        print(s)
+	        return func
+	
+	    return f
+	
+	
+	@dec('haha')
+	def f1(st):
+	    print(st)
+	
+	
+	f1('i am f1')
+735101fc6a528131bc293deb10f43dec|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|116|1|V|python
+	def dec(s):
+	    def f(func):
+	        print(s)
+	
+	        def ff(str):
+	            print(str)
+	
+	        return ff
+	
+	    return f
+	
+	
+	@dec('haha')
+	def f1(st):
+	    print(st)
+	
+	
+	f1('i am f1')
+8e7f383c5c80df73d887401b29994c31|file:///home/jack/note/2021-6-12~6-16/md/6-16.md|130|1|V|markdown
+	def dec(s):
+	    def f(func):
+	        print(s)
+	        return func
+	    return f
+	
+	@dec('haha')
+	def f1(st):
+	    print(st)
+	
+	f1('i am f1')
+4f1d807c6a00496b159da7004ae301a6|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|137|1|V|python
+	singledispatch.register
+0f16bd25a40e4ec5b70eb0434e5561f3|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|135|1|V|python
+	from functools import singledispatch
+c8dc0ef43fab6b37d1324e544d77f6c8|file:///home/jack/note/2021-6-12~6-16/py/6-15.py|135|1|V|python
+	def dec(func):
+	    print('aaaaa')
+	    return func
+	
+	
+	@dec
+	def f1():
+	    print('111')
+	
+	
+	@dec
+	def f2():
+	    print('222')
+	
+	
+	@dec
+	def f3():
+	    print('333')
+	
+	
+	f1()
+	f2()
+	f3()
+6f7a12da905f1d333d940bf0e2b2155b|file:///home/jack/note/2021-6-17~6-21/md/6-18.md|4|1|V|markdown
+	1. 在非OTG协议下，多个PC机相连谁作为host?
+	2. 网卡传输数据是在什么传输方式下？
+	3. 多个设备之间传输数据的端点占用是什么情况？
+	4. USB传输过程中的速度波动是什么引起的？
+90b59bb4a628cab4a72b1cf2bdff5a7b|file:///home/jack/note/2021-6-17~6-21/md/6-21.md|6|1|V|markdown
+	```python
+	'hello, {}, {}'.format('world', 'haha')
+12d207540fa782c1bf7fe778518dfafc|file:///home/jack/note/2021-6-17~6-21/md/6-21.md|8|1|V|markdown
+	```python
+c22bc281dfe72859c381cf4252f45688|file:///home/jack/note/2021-6-17~6-21/md/6-21.md|8|1|V|markdown
+	'hello, {0}, {1}'.format('world', 'haha')
+b3e7fb66996f80b9e93b313c47f75847|file:///home/jack/note/2021-6-17~6-21/py/6-21.py|1|1|V|python
+	class People:
+	    def __init__(self, name, age):
+	        self.name = name
+	        self.age = age
+	
+	    def __iter__(self):
+	        return (i for i in (self.name, self.age))
+	
+	    def __format__(self, fmt=''):
+	        compent = (format(c, fmt) for c in self)
+	        return '{},{}'.format(*compent)
+	
+	
+	p1 = People('ydx', 18)
+	print(format(p1, '>10'))
+93b69773ff095c9364eb76b33b521f56|file:///home/jack/note/2021-6-22~6-26/py/6-23.py|1|1|V|python
+	class Demo:
+	    simble = '+'
+	
+	    def __init__(self, x, y):
+	        self.x = x
+	        self.y = y
+	
+	    def f(self, sm):
+	        return self.x + self.y if sm == self.simble else self.x - self.y
+	
+	
+	d1 = Demo(2, 4)
+	print(d1.f('+'))
+	print(d1.f('-'))
+	d1.simble = '-'  # 将实例的属性self.simble定义为'-'，那么调用self.simble时就不会调用类属性simble了，而是调用新定义的实例属性self.simble
+	print(d1.f('+'))
+	print(d1.f('-'))
+	
+	d2 = Demo(2, 4)  # 一个新的实例，它的self.simble还是调用的原来的类属性
+	print(d2.f('+'))
+	print(d2.f('-'))
+45528380331c92db4862482b1d495362|file:///home/jack/note/2021-6-22~6-26/py/6-23.py|23|1|V|python
+	class DemoSun(Demo):
+	    simble = '-'
+4404b13042af550b82da06e0ce095354|file:///home/jack/note/2021-6-22~6-26/md/6-23.md|67|1|V|markdown
+	然后使用子类实例化对象即可，`xx = DemoSun(2, 4)`
+74bdd609430f5e95c506cd41a30721ad|file:///home/jack/note/2021-6-22~6-26/md/6-23.md|74|1|V|markdown
+	renoir
+d2f3390666a72b7f8e68ab89f9669500|file:///home/jack/note/2021-6-22~6-26/py/6-24.py|13|1|V|python
+	print(sig.parameters.items())
+9201b977b48ff2308ca4b5a6b8b6bd8e|file:///home/jack/note/2021-6-22~6-26/py/6-24.py|1|1|V|python
+	from inspect import signature
+	
+	def f(a, b):
+	    return a + b
+	
+	sig = signature(f)
+	
+	for name, value in sig.parameters.items():
+	    print(name, value.kind, value.default)
+10c12616ea7b30cc7087a2d36a27c0b8|file:///home/jack/note/2021-6-22~6-26/py/6-24.py|24|1|V|python
+	print(seq)
+ce3f372a94d179db0a781f6d6df6f98c|file:///home/jack/note/2021-6-22~6-26/md/6-24.md|27|1|V|markdown
+	<++>
+a3d75f86357d12e069a1c251aab8061f|file:///home/jack/note/2021-6-22~6-26/md/6-24.md|44|1|v|markdown
+	memoryview(bytes(array.array('f', range(10)))).cast('d
+f9a812f2d58b9adcd5ee19f7519e5c6a|file:///home/jack/note/2021-6-27~7-1/py/6-28.py|20|1|V|python
+	import array, math, reprlib
+	
+	class Vector:
+	    typecode = 'd'
+	    def __init__(self, componts):
+	        self._componts = array.array(self.typecode, componts)
+	
+	    def __iter__(self):
+	        return iter(self._componts)
+	
+	    def __repr__(self):
+	        componts = reprlib.repr(self._componts)
+	        componts = componts[componts.find('['):-1]
+	        return 'Vector({})'.format(componts)
+	
+	    def __str__(self):
+	        return str(tuple(self))
+	
+	    def __bytes__(self):
+	        return (bytes(ord(self.typecode))+bytes(self._componts))
+	
+	    def __eq__(self, other):
+	        return tuple(self)==tuple(other)
+	
+	    def __abs__(self):
+	        return math.sqrt(sum(x*x for x in self))
+	
+	    def __bool__(self):
+	        return bool(abs(self))
+	
+	    @classmethod
+	    def frombytes(cls, octets):
+	        typecode = chr(octets[0])
+	        memv = memoryview(octets[1:]).cast(typecode)
+	        return cls(memv)
+ffa04217f44e4a2773e75640c9d63ad8|file:///home/jack/note/2021-6-27~7-1/md/6-28.md|23|1|V|markdown
+	import math
+3d08d8936b8fbdf75558b31b5581b05e|file:///home/jack/note/2021-6-27~7-1/md/6-28.md|22|1|V|markdown
+	import array
+ea42dabb05297acf8e2b559cebcb7dbb|file:///home/jack/note/2021-6-27~7-1/py/6-29.py|11|1|V|python
+	print(d[:])
+fe9ae9e8fed8272751cc0b869a99c311|file:///home/jack/note/2021-6-27~7-1/py/6-29.py|12|1|V|python
+	    def __len__(self):
+	        return len(self)
+ed1a847b602cf1d30a8dc5759f4f71d9|file:///home/jack/note/2021-6-27~7-1/py/6-29.py|15|1|V|python
+	subscriptable
+7b6dd8b078d81f88041a1e6b0f7bf1d9|file:///home/jack/note/2021-6-27~7-1/md/6-30.md|3|7|v|markdown
+	为什么外接的指令需要通过AP核之后再发给DSP核
+2297e86226a462fe76ae076abac8b432|file:///home/jack/note/2021-6-27~7-1/md/6-30.md|9|1|V|markdown
+	CPU中主要有两个部分：用于控制的芯片、用于计算的芯片。
+b2d05749a3fdcd16152a6a730cca51a3|file:///home/jack/.config/nvim/md-snippets.vim|18|1|V|vim
+	autocmd Filetype markdown inoremap <buffer> ,r <font color='red'></font> <++><Esc>F>6hi
+977be7156289ed2f66d9e47812e97600|file:///home/jack/note/2021-7-3~7-7/md/7-3.md|91|9|V|markdown
+	        attr_list = ['abc', 'bcd', 'cde']
+38bb63029512826a63cedd3e4db9a1bb|file:///home/jack/note/2021-7-9~7-13/md/7-9.md|13|1|V|markdown
+	```python
+	import abc
+	
+	class Tombola(abc.ABC):
+	    @abc.abcstractmethod
+	    def load(self, iterable):
+	        """从可迭代序列中添加元素到实例(彩票机)中"""
+	
+	    @abc.abcstractmethod
+	    def pick(self):
+	        """随机删除元素，然后将其返回
+	        如果实例为空, 应该抛出LookupError
+	        """
+	
+	    def loaded(self):
+	        return bool(self.inspect())
+	
+	    def inspect(self):
+	        item = []
+	        while True:
+	            try:
+	                item.append(self.pick())
+	            expect LookupError:
+	                break
+	        return tuple(sorted(item))
+c29566ff8957d3bf7157bdbce32e7706|file:///home/jack/note/2021-7-9~7-13/py/7-9.py|1|1|V|python
+	import abc
+	
+	class Tombola(abc.ABC):
+	    @abc.abstractmethod
+	    def load(self, iterable):
+	        """从可迭代序列中添加元素到实例(彩票机)中"""
+	
+	    @abc.abstractmethod
+	    def pick(self):
+	        """随机删除元素，然后将其返回
+	        如果实例为空, 应该抛出LookupError
+	        """
+	
+	    def loaded(self):
+	        return bool(self.inspect())
+	
+	    def inspect(self):
+	        item = []
+	        while True:
+	            try:
+	                item.append(self.pick())
+	            except LookupError:
+	                break
+	        return tuple(sorted(item))
+	
+6d1f896f07636291def2800f4444dc7b|file:///home/jack/note/2021-7-9~7-13/md/7-9.md|14|1|V|markdown
+	import abc
+	
+	class Tombola(abc.ABC):
+	    @abc.abcstractmethod
+	    def load(self, iterable):
+	        """从可迭代序列中添加元素到实例(彩票机)中"""
+	
+	    @abc.abcstractmethod
+	    def pick(self):
+	        """随机删除元素，然后将其返回
+	        如果实例为空, 应该抛出LookupError
+	        """
+	
+	    def loaded(self):
+	        return bool(self.inspect())
+	
+	    def inspect(self):
+	        item = []
+	        while True:
+	            try:
+	                item.append(self.pick())
+	            expect LookupError:
+	                break
+	        return tuple(sorted(item))
+88f443429ac4dfe75fdb4f18f2c6df99|file:///home/jack/note/2021-7-9~7-13/py/7-9.py|44|1|V|python
+	unbound
+8bcff301096da7e36f8430146762e627|file:///home/jack/note/2021-7-9~7-13/py/7-9.py|35|9|v|python
+	rs = random.SystemRandom()
+2395973db673a9afdc92bcb539f3bb34|file:///home/jack/note/2021-7-9~7-13/py/7-9.py|36|9|v|python
+	rs.shuffle(self.iterable)
+	
+bd53320183165a40f6031bcf5c392811|file:///home/jack/note/2021-7-9~7-13/py/7-9.py|36|13|v|python
+	    try:
+	            return self.iterable.pop()
+	        except IndexError:
+	            raise LookupError('BinGo is empty')
+9e6824e102b1551cfd3776a090b2a09b|file:///home/jack/note/2021-7-9~7-13/py/7-9.py|29|1|V|python
+	class BinGo(Tombola):
+	    def __init__(self, l):
+	        self.iterable = list(l)
+	
+	    def load(self, item):
+	        self.iterable.extend(item)
+	
+	    def pick(self):
+	        try:
+	            position = random.randrange(len(self.iterable))
+	        except ValueError:
+	            raise LookupError('BinGo is empty')
+	        return self.iterable.pop(position)
+	
+	    def loaded(self):
+	        return bool(self.iterable)
+	
+	    def inspect(self):
+	        return tuple(sorted(self.iterable))
+	
+	    def __call__(self):
+	        return self.pick()
+d31d6a997efb5c97167f1aadadea681c|file:///home/jack/note/2021-7-9~7-13/py/7-9.py|53|1|V|python
+	@Tombola.register
+	class Tiger(list):
+	    def pick(self):
+	        if self:
+	            position = random.randrange(len(self))
+	            return self.pop(position)
+	        else:
+	            raise LookupError('error Tiger is empty')
+	
+	    # 这里将函数list.extend 赋予给了类的方法load，实际上就是定义了类方法load(实例也可以调用类方法，其实也类变量可以被实例调用一个道理)，当然这里类方法load也可以写成实例方法self.load
+	    load = list.extend
+	
+	    def loaded(self):
+	        return bool(self)
+	
+	    def inspect(self):
+	        return tuple(sorted(self))
+2c7aea4237e25b4f8ee3b0bf77d6fed0|file:///home/jack/note/2021-7-9~7-13/py/7-9.py|76|1|V|python
+	verbose
+c532b399c799ccbebcf272ff610a581d|file:///home/jack/note/2021-7-9~7-13/py/7-9.py|73|6|v|python
+	Tiger.__name__
+d1bf4f111b6ff8dbdd67dd713ce0931b|file:///home/jack/note/2021-7-9~7-13/py/7-9.py|58|1|V|python
+	            s        = 'aaa'
+	            ss       = 'bbbbbb'
+64d5fe5352127df5e8f6e54461b03ba5|file:///home/jack/note/2021-7-9~7-13/py/7-9.py|85|1|V|python
+	print(Tombola.__defaults__)
+2e82fb276f7ac2e075f3859fa3a6125d|file:///home/jack/note/2021-7-9~7-13/py/7-11.py|1|1|v|python
+	class DoppelDict(dict):
+	    def __setitem__(self, key, value):
+	        super().__setitem__(key, [value] * 2)
+	
+	
+	dd = DoppelDict(one=1)
+	print(dd)
+	dd['two'] = 2
+	print(dd)
+	dd.update(three=3)
+	print(dd)
+83255749d17e02250f140db16e3d0132|file:///home/jack/note/2021-7-9~7-13/py/7-11.py|12|1|v|python
+	import tkinter
+	
+	
+	def print_mro(cls):
+	    print(','.join(i.__name__ for i in cls.__mro__))
+	
+	
+	print_mro(tkinter.Text)
+f8afa36b7455ad002f30a14f3647b681|file:///home/jack/note/2021-7-9~7-13/py/7-11.py|20|1|V|python
+	from tkinter import Tcl
+	
+	tcl = Tcl()
+	
+	tcl.eval('source xxx.tcl')
+0bc57c45a73f5c7dfc8589f92d44cab0|file:///home/jack/note/2021-7-9~7-13/py/7-11.py|27|1|V|python
+	tcl = Tcl()
+e9cfe7bbd7c59ab7d74320da407f9240|file:///home/jack/note/2021-7-9~7-13/py/7-11.py|25|1|V|python
+	from tk import Tcl

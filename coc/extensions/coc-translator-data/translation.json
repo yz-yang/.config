@@ -1,0 +1,354 @@
+[
+  {
+    "id": "b4022b53-a9ab-4afd-bdbf-555f8f6464f1",
+    "content": [
+      "duplicate",
+      "v. 复制；复印；复写；（尤指不必要时）重复 "
+    ],
+    "path": "file:///home/jack/.config/nvim/init.vim\t163\t13"
+  },
+  {
+    "id": "59574e9c-5d4f-46f8-b4f2-550abfb1708c",
+    "content": [
+      "adjacent",
+      "adj. 与…毗连的；邻近的 "
+    ],
+    "path": "file:///home/jack/.config/nvim/init.vim\t163\t4"
+  },
+  {
+    "id": "f4eb6fcb-49c6-4e60-9403-5367e8b59cb3",
+    "content": [
+      "verbose",
+      "adj. 冗长的；啰嗦的；唠叨的 "
+    ],
+    "path": "file:///home/jack/note/2021-7-9~7-13/py/7-9.py\t76\t7"
+  },
+  {
+    "id": "93f58c4f-994b-4876-a5ed-b537f4872281",
+    "content": [
+      "unbound",
+      "adj. 解除绑缚的；未装订(成书)的；【化】非结合的 "
+    ],
+    "path": "file:///home/jack/note/2021-7-9~7-13/py/7-9.py\t44\t7"
+  },
+  {
+    "id": "fd4a0c25-4990-4863-848b-9e9456a28184",
+    "content": [
+      "fake",
+      "n. 赝品；假货；冒充者 "
+    ],
+    "path": "file:///home/jack/note/2021-7-9~7-13/md/7-9.md\t3\t19"
+  },
+  {
+    "id": "790899b0-f0ee-41cf-9564-0db8d813aa45",
+    "content": [
+      "tombola",
+      "n. “翻筋斗”赌戏（一种抽彩摇奖法） "
+    ],
+    "path": "file:///home/jack/note/2021-7-9~7-13/md/7-9.md\t3\t10"
+  },
+  {
+    "id": "28bb0dfc-40d2-46e0-8101-694dd696e99d",
+    "content": [
+      "indecies",
+      "web. 索引 "
+    ],
+    "path": "file:///home/jack/note/2021-6-27~7-1/md/6-29.md\t10\t13"
+  },
+  {
+    "id": "ac042f6b-a2a0-4175-ba10-cd665a4d79b0",
+    "content": [
+      "subscriptable",
+      "可下标"
+    ],
+    "path": "file:///home/jack/note/2021-6-27~7-1/py/6-29.py\t15\t13"
+  },
+  {
+    "id": "b327dfc4-5930-4b25-8a68-64a7c012e45a",
+    "content": [
+      "container",
+      "n. 容器；集装箱；货柜 "
+    ],
+    "path": "file:///usr/lib/python3.9/collections/__init__.py\t1\t42"
+  },
+  {
+    "id": "d8d2d2f9-14df-44ab-a3e4-d1d0d11f51e9",
+    "content": [
+      "specialized",
+      "adj. 专门的；专业的 "
+    ],
+    "path": "file:///usr/lib/python3.9/collections/__init__.py\t1\t31"
+  },
+  {
+    "id": "eaf29f14-91f7-454e-a625-9c215296f944",
+    "content": [
+      "implements",
+      "v. 实施；执行；落实(政策)；使生效 "
+    ],
+    "path": "file:///usr/lib/python3.9/collections/__init__.py\t1\t18"
+  },
+  {
+    "id": "383f89ea-16c3-4614-b1f5-65c3c1958423",
+    "content": [
+      "renoir",
+      "n. 雷诺瓦Renoir "
+    ],
+    "path": "file:///home/jack/note/2021-6-22~6-26/md/6-23.md\t74\t6"
+  },
+  {
+    "id": "c777c48b-a0e2-4395-8723-36afa3d69bff",
+    "content": [
+      "itemsize",
+      "un. 项大小 "
+    ],
+    "path": "terminal:98\t4\t54"
+  },
+  {
+    "id": "62805b62-b439-486c-9863-fc55b194f06f",
+    "content": [
+      "multiple",
+      "adj. 数量多的；多种多样的 "
+    ],
+    "path": "terminal:98\t4\t45"
+  },
+  {
+    "id": "5a069cba-b05f-4bd3-9f36-eac8f330ba97",
+    "content": [
+      "slot",
+      "n. 机会；（投放或插入东西的）窄缝 "
+    ],
+    "path": "file:///home/jack/note/2021-6-12~6-16/md/6-14.md\t8\t4"
+  },
+  {
+    "id": "e71d36ed-6bb0-44ab-bc49-ef0044075445",
+    "content": [
+      "twilightbus",
+      "暮光巴士"
+    ],
+    "path": "file:///home/jack/note/2021-6-12~6-16/6-13.md\t67\t1"
+  },
+  {
+    "id": "ad30d8bd-6224-4bd0-b149-ee3a6af444ce",
+    "content": [
+      "twilight",
+      "n. 黄昏；微光；衰退期 "
+    ],
+    "path": "file:///home/jack/note/2021-6-12~6-16/6-13.md\t67\t1"
+  },
+  {
+    "id": "288cf1ab-612b-4875-b007-eff8ad4ba4d5",
+    "content": [
+      "haunted",
+      "adj. （被认为）闹鬼的；忧心忡忡的；满面愁容的 "
+    ],
+    "path": "file:///home/jack/note/2021-6-12~6-16/6-13.md\t26\t7"
+  },
+  {
+    "id": "9e93c3f2-b59f-42b9-971e-96af3f566cff",
+    "content": [
+      "charles",
+      "n. 查尔斯；【男名】男子名 "
+    ],
+    "path": "file:///home/jack/note/2021-6-12~6-16/6-12.md\t26\t7"
+  },
+  {
+    "id": "e7a6664d-15ad-4992-ace4-e9189369eb0b",
+    "content": [
+      "superuser",
+      "n. 超级用户 "
+    ],
+    "path": "untitled:2\t1\t9"
+  },
+  {
+    "id": "83c61bc3-e8bb-47e2-8e94-079682bf0603",
+    "content": [
+      "thermal",
+      "adj. 热的；热量的；保暖的；防寒的 "
+    ],
+    "path": "file:///home/jack/note/2021-6-7~6-11/6-11.md\t5\t7"
+  },
+  {
+    "id": "18d8c272-7d73-48d8-bc2d-1ad581cdf144",
+    "content": [
+      "compile",
+      "v. 编译；编写（书、列表、报告等）；编纂 "
+    ],
+    "path": "file:///etc/systemd/system.conf\t8\t35"
+  },
+  {
+    "id": "094c0d27-a3a2-44dc-989d-1f65dfdf130d",
+    "content": [
+      "entries",
+      "n. 条目；入口；记录；记载 "
+    ],
+    "path": "file:///etc/systemd/system.conf\t8\t4"
+  },
+  {
+    "id": "1f40ad61-e3d8-4a2e-8499-ada47ac07145",
+    "content": [
+      "profile",
+      "n. 轮廓；简介；形象；外形 "
+    ],
+    "path": "file:///home/jack/note/2021-6-7~6-11/6-11.md\t3\t7"
+  },
+  {
+    "id": "96fac892-c21a-40e7-a61b-40b835391f6a",
+    "content": [
+      "sensors",
+      "n. 传感器；【自】感受器；灵敏元件；【摄】传感器 "
+    ],
+    "path": "file:///home/jack/note/2021-6-7~6-11/6-11.md\t1\t7"
+  },
+  {
+    "id": "f8d78f5a-4918-4924-8c0b-394334706e7a",
+    "content": [
+      "_check cryptography",
+      "_check 密码学"
+    ],
+    "path": "file:///usr/lib/python3.9/site-packages/requests/__init__.py\t72\t20"
+  },
+  {
+    "id": "229b6f59-30a1-441f-9c5b-9c852a330e90",
+    "content": [
+      "check compatibility",
+      "检查兼容性"
+    ],
+    "path": "file:///usr/lib/python3.9/site-packages/requests/__init__.py\t49\t20"
+  },
+  {
+    "id": "83a6e642-62a7-43a8-86eb-23d2bdb655bd",
+    "content": [
+      "programming",
+      "n. 节目；方案；【计】程序；课程(表) "
+    ],
+    "path": "file:///usr/lib/python3.9/site-packages/requests/__init__.py\t19\t32"
+  },
+  {
+    "id": "424f4cb3-f069-4719-bc85-33e8fdc2dc16",
+    "content": [
+      "dictionary",
+      "n. 词典；字典；辞书；专业术语大全 "
+    ],
+    "path": "file:///usr/lib/python3.9/site-packages/requests/api.py\t111\t33"
+  },
+  {
+    "id": "e85bab72-e70a-40cc-a69f-ab02af638071",
+    "content": [
+      "attached",
+      "adj. 依恋；爱慕；附属于；为…工作 "
+    ],
+    "path": "file:///home/jack/work-place/python-workplace/ui-auto-demo01/test-class/test_search.py\t12\t8"
+  },
+  {
+    "id": "a6b8eea7-5402-49af-9f7d-eaa91668ecd5",
+    "content": [
+      "recently",
+      "adv. 最近；近期地；不久以前地 "
+    ],
+    "path": "file:///home/jack/caogao.md\t1\t8"
+  },
+  {
+    "id": "59c0fb3d-003d-4a05-a244-0f62713993fc",
+    "content": [
+      "dispatch",
+      "n. 派遣；发送；电讯；快信 "
+    ],
+    "path": "file:///home/jack/caogao.md\t1\t8"
+  },
+  {
+    "id": "c8ee9bc4-8590-43e5-b686-23a8ec609976",
+    "content": [
+      "singledispatch",
+      "web. 单分派；只支持单分派；单一分派 "
+    ],
+    "path": "file:///home/jack/caogao.md\t1\t14"
+  },
+  {
+    "id": "3ea6de75-ceec-48aa-bd39-e5ba347de911",
+    "content": [
+      "wraps",
+      "v. 包；用…包裹（或包扎、覆盖等）；用…缠绕（或围紧）；（使文字）换行；卷；折叠；隐蔽(意义,真理等)；缠绕 "
+    ],
+    "path": "file:///home/jack/note/2021-6-7~6-11/6-7.md\t195\t5"
+  },
+  {
+    "id": "1a97caef-e5e4-46d8-9bc1-d882b11c204d",
+    "content": [
+      "result",
+      "n. 结果；成果；成绩；后果 "
+    ],
+    "path": "file:///home/jack/note/2021-6-7~6-11/6-7.md\t190\t24"
+  },
+  {
+    "id": "e8d071f6-439e-4317-919a-4fcf46498ef7",
+    "content": [
+      "consume",
+      "v. 消耗；吃；毁灭；烧毁 "
+    ],
+    "path": "file:///home/jack/note/2021-6-7~6-11/6-7.md\t190\t1"
+  },
+  {
+    "id": "6297283e-e98a-48a5-a136-f94a6612533d",
+    "content": [
+      "prompt",
+      "n. 提示；提示符 "
+    ],
+    "path": "file:///home/jack/work-place/python-workplace/test-venv/11_env/bin/activate.fish\t44\t70"
+  },
+  {
+    "id": "c380bb30-58da-4029-9e19-34f61c66bf25",
+    "content": [
+      "dummy",
+      "n. （尤指缝制或陈列服装用的）人体模型；仿制品；仿造物；笨蛋 "
+    ],
+    "path": "file:///home/jack/dr.md\t6\t15"
+  },
+  {
+    "id": "dfa05a46-6030-455e-aa23-f96aeaf2d35b",
+    "content": [
+      "video",
+      "n. 视频；录影；录像带；盒式录像带 "
+    ],
+    "path": "file:///home/jack/dr.md\t6\t18"
+  },
+  {
+    "id": "c01b34dc-81e0-426a-a2c5-ca016201e2fc",
+    "content": [
+      "strategies",
+      "n. 策略；战略(学) "
+    ],
+    "path": "file:///home/jack/.config/coc/extensions/node_modules/coc-explorer/readme.md\t164\t19"
+  },
+  {
+    "id": "05b7a2a3-1b12-4d8a-b7ad-ac2a7fbd2e3a",
+    "content": [
+      "presets",
+      "v. 预先装置；预调 "
+    ],
+    "path": "file:///home/jack/.config/coc/extensions/node_modules/coc-explorer/readme.md\t151\t13"
+  },
+  {
+    "id": "006795c5-6517-4390-96b6-486ec48bb011",
+    "content": [
+      "definition",
+      "n. 定义；清晰度；（尤指词典里的词或短语的）释义；解释 "
+    ],
+    "path": "file:///home/jack/.config/nvim/init.vim\t721\t34"
+  },
+  {
+    "id": "2277d0ee-fb28-4a47-8118-6849bba6345c",
+    "content": [
+      "references",
+      "n. 参考；提到；证明人；基准 "
+    ],
+    "path": "file:///home/jack/.config/nvim/init.vim\t725\t34"
+  },
+  {
+    "id": "75268fad-4362-4a66-9488-71f3d8a27a45",
+    "content": [
+      "nmap",
+      "web. 端口扫描工具；扫描网络端口；New Mark Adevertiasement Plan "
+    ],
+    "path": "file:///home/jack/.config/nvim/init.vim\t729\t1"
+  }
+]

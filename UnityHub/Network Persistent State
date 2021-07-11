@@ -1,0 +1,1 @@
+{"net":{"http_server_properties":{"servers":[{"https://api.unity.com":{"supports_spdy":true}},{"https://geolocation.onetrust.com":{"supports_spdy":true}},{"https://cdn.cookielaw.org":{"supports_spdy":true}},{"https://connect-prd-cdn.unity.com":{"supports_spdy":true}}],"version":5},"network_qualities":{"CAISBDg4MDcYgICAgPj/////AQ==":"3G"}}}

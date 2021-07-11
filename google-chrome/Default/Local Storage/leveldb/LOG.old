@@ -1,0 +1,6 @@
+2021/07/11-14:39:55.812 3 Reusing MANIFEST /home/jack/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2021/07/11-14:39:55.816 3 Recovering log #411
+2021/07/11-14:39:55.819 3 Reusing old log /home/jack/.config/google-chrome/Default/Local Storage/leveldb/000411.log 
+2021/07/11-14:48:26.338 c Level-0 table #415: started
+2021/07/11-14:48:26.345 c Level-0 table #415: 29151 bytes OK
+2021/07/11-14:48:26.353 c Delete type=0 #411

@@ -1,0 +1,741 @@
+21:16:54.587 [ INFO    ] Warspear Online v.9.4.1
+21:16:54.587 [ INFO    ] Log created 30d 5m 121y at 21:16:54
+21:16:54.587 [ INFO    ] Running on: LINUX
+21:16:54.587 [ INFO    ] User locale: en
+21:16:54.587 [ INFO    ] Free heap: 15 GB
+21:16:54.587 [ INFO    ] System memory pool size: 932.5 KB
+21:16:54.587 [ INFO    ] Free heap after system init: 15 GB
+21:16:54.587 [ INFO    ] Opening pack file: /home/jack/.local/share/Steam/steamapps/common/Warspear Online MMORPG/warspear.pak; free memory: 15 GB
+21:16:54.587 [ INFO    ] Pack file version: 2021-06-09
+21:16:54.606 [ INFO    ] Opening pack file: /home/jack/.config/warspear/warspear.pak.1; free memory: 15 GB
+21:16:54.606 [ WARNING ] Pack file not found.
+21:16:54.606 [ INFO    ] Free memory before Render2D init: 15 GB
+21:16:54.606 [ INFO    ] Init Render2D: size = 426x320; bpp = 16
+21:16:54.606 [ INFO    ] Render2D system memory pool size used: 390.6 KB
+21:16:54.606 [ INFO    ] Free memory after Render2D init: 15 GB
+21:16:54.606 [ INFO    ] Load String table local/kbd_layout
+21:16:54.606 [ INFO    ] Load String table local/kbd_layout passed
+21:16:54.606 [ INFO    ] Load String table local/kbd_matrix
+21:16:54.606 [ INFO    ] Load String table local/kbd_matrix passed
+21:16:54.606 [ INFO    ] Load String table client_ui_strings
+21:16:54.619 [ INFO    ] Load String table client_ui_strings passed
+21:16:54.619 [ INFO    ] Load String table strings
+21:16:54.785 [ INFO    ] Load String table strings passed
+21:16:54.787 [ INFO    ] Channel = 2
+21:16:54.787 [ INFO    ] Flurry Agent Version: No Flurry agent installed
+21:16:54.787 [ INFO    ] Trying to obtain system configuration...
+21:16:54.787 [ INFO    ] No system configuration is available.
+21:16:54.851 [ INFO    ] Steam: ticket requested
+21:16:54.851 [ INFO    ] InitSoundSystem: freq=16000, bps=16, mod_channels=2, wav_channels=8, free_memory=15 GB
+21:16:54.851 [ INFO    ] Default OpenAL device: OpenAL Soft
+21:16:54.975 [ INFO    ] OpenAL vendor:  render:  version: 1.1
+21:16:54.980 [ INFO    ] Max mono channels 255 / max stereo sources 1
+21:16:54.980 [ INFO    ] Starting thread (openal)...
+21:16:54.980 [ INFO    ] Thread #140391893567040 (openal) started.
+21:16:54.980 [ INFO    ] Audio driver: openal
+21:16:54.980 [ INFO    ] Loading <sound_fx_enum.dat>... [15 GB free] success
+21:16:54.981 [ INFO    ] Loading <sound_fx.dat>... [15 GB free] success
+21:16:54.981 [ INFO    ] Load String table sound_files.dat
+21:16:54.983 [ INFO    ] Load String table sound_files.dat passed
+21:16:54.984 [ INFO    ] Loading <monster_sound.csd>... [15 GB free] success
+21:16:54.984 [ INFO    ] Loading <music.dat>... [15 GB free] success
+21:16:54.984 [ INFO    ] Load String table music_files.dat
+21:16:54.985 [ INFO    ] Load String table music_files.dat passed
+21:16:55.024 [GL DEBUG] <GLX_SGI_swap_control> extension supported
+21:16:55.024 [GL DEBUG] glXSwapIntervalSGI( 1 ) success
+21:16:55.024 [GL DEBUG] <GLX_MESA_swap_control> extension supported
+21:16:55.024 [GL DEBUG] glXSwapIntervalMESA( 1 ) success
+21:16:55.024 [GL DEBUG] <GLX_EXT_swap_control> extension supported
+21:16:55.037 [GL DEBUG] glXSwapIntervalEXT( 1 ) success
+21:16:55.040 [ INFO    ] Before loading ui background: 15 GB are available.
+21:16:55.206 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:55.301 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:55.313 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:55.357 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:55.368 [ INFO    ] Steam: ticket request success
+21:16:55.369 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:55.371 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:55.393 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:55.543 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:55.684 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:55.875 [ ERROR   ] LoadImage: fonts_176x208/digits_tiny1; Available free memory: 15 GB
+21:16:55.876 [ ERROR   ] LoadImage: fonts_176x208/digits_tiny_regular1; Available free memory: 15 GB
+21:16:55.888 [ INFO    ] Loading <mob_anim.dat>... [15 GB free] success
+21:16:55.888 [ INFO    ] Loading <regions.dat>... [15 GB free] success
+21:16:55.888 [ INFO    ] Loading <hair_colors.dat>... [15 GB free] success
+21:16:55.888 [ INFO    ] Loading <bonuses.dat>... [15 GB free] success
+21:16:55.889 [ INFO    ] Loading <hero_level_experience.dat>... [15 GB free] success
+21:16:55.889 [ INFO    ] Loading <premium_categories.dat>... [15 GB free] success
+21:16:55.889 [ INFO    ] Loading <premium_shop_categories_aliases.dat>... [15 GB free] success
+21:16:55.889 [ INFO    ] Loading <race_look.dat>... [15 GB free] success
+21:16:55.889 [ INFO    ] Loading <market_categories.dat>... [15 GB free] success
+21:16:55.889 [ INFO    ] Loading <castle_market_categories.dat>... [15 GB free] success
+21:16:55.889 [ INFO    ] Loading <envelope_bonuses.dat>... [15 GB free] success
+21:16:55.889 [ INFO    ] Loading <award_item_category.csd>... [15 GB free] success
+21:16:55.889 [ INFO    ] Loading <factions.csd>... [15 GB free] success
+21:16:55.889 [ INFO    ] Loading <guild_levels.csd>... [15 GB free] success
+21:16:55.890 [ INFO    ] Loading <guild_skills.csd>... [15 GB free] success
+21:16:55.890 [ INFO    ] Loading <skill_matrix.csd>... [15 GB free] success
+21:16:55.890 [ INFO    ] Loading <stamina.csd>... [15 GB free] success
+21:16:55.890 [ INFO    ] Loading <craft_job_slot.csd>... [15 GB free] success
+21:16:55.890 [ INFO    ] Loading <craft_profession.csd>... [15 GB free] success
+21:16:55.890 [ INFO    ] Loading <craft_result_category.csd>... [15 GB free] success
+21:16:55.890 [ INFO    ] Loading <craft_resource_professions.csd>... [15 GB free] success
+21:16:55.890 [ INFO    ] Loading <haircuts.csd>... [15 GB free] success
+21:16:55.890 [ INFO    ] Loading <haircut_packs.csd>... [15 GB free] success
+21:16:55.890 [ INFO    ] Loading <control_points.csd>... [15 GB free] success
+21:16:55.891 [ INFO    ] Loading <smiles.csd>... [15 GB free] success
+21:16:55.891 [ INFO    ] Loading <smile_packs.csd>... [15 GB free] success
+21:16:55.891 [ INFO    ] Loading <title_guild_achievements.csd>... [15 GB free] success
+21:16:55.893 [ INFO    ] Loading <achievements.csd>... [15 GB free] success
+21:16:55.893 [ INFO    ] Loading <achievements_group.csd>... [15 GB free] success
+21:16:55.895 [ INFO    ] Loading <achievements_goal.csd>... [15 GB free] success
+21:16:55.895 [ INFO    ] Loading <defined_influences.csd>... [15 GB free] success
+21:16:55.896 [ INFO    ] Loading <influences.csd>... [15 GB free] success
+21:16:55.897 [ INFO    ] Loading <skill_amplifier_bonuses.csd>... [15 GB free] success
+21:16:55.897 [ INFO    ] Loading <guild_occupations.csd>... [15 GB free] success
+21:16:55.897 [ INFO    ] Loading <guild_operation_categories.csd>... [15 GB free] success
+21:16:55.897 [ INFO    ] Loading <castles.csd>... [15 GB free] success
+21:16:55.897 [ INFO    ] Loading <castle_building_types.csd>... [15 GB free] success
+21:16:55.897 [ INFO    ] Loading <castle_buildings.csd>... [15 GB free] success
+21:16:55.897 [ INFO    ] Loading <castle_building_levels.csd>... [15 GB free] success
+21:16:55.897 [ INFO    ] Loading <castle_product_levels.csd>... [15 GB free] success
+21:16:55.898 [ INFO    ] Loading <castle_products.csd>... [15 GB free] success
+21:16:55.898 [ INFO    ] Loading <expert_slot_info.csd>... [15 GB free] success
+21:16:55.898 [ INFO    ] Loading <talents.csd>... [15 GB free] success
+21:16:55.898 [ INFO    ] Loading <talents_tree.csd>... [15 GB free] success
+21:16:55.901 [ INFO    ] Loading <territories.csd>... [15 GB free] success
+21:16:55.901 [ INFO    ] Loading <sectors.csd>... [15 GB free] success
+21:16:55.901 [ INFO    ] Loading <classes.csd>... [15 GB free] success
+21:16:55.901 [ INFO    ] Loading <hints.csd>... [15 GB free] success
+21:16:55.902 [ INFO    ] Loading <item_sets.csd>... [15 GB free] success
+21:16:55.902 [ INFO    ] Loading <currencies.csd>... [15 GB free] success
+21:16:55.902 [ INFO    ] Loading <zones.csd>... [15 GB free] success
+21:16:55.902 [ INFO    ] Loading <storage_items_filter_categories.csd>... [15 GB free] success
+21:16:55.902 [ INFO    ] Loading <account_storage_expansion_offers.csd>... [15 GB free] success
+21:16:55.950 [ INFO    ] Load String table monsters_dt.dat
+21:16:55.951 [ INFO    ] Load String table monsters_dt.dat passed
+21:16:55.951 [ INFO    ] GameGraphics::LoadInGameResources() started
+21:16:55.962 [ INFO    ] GameGraphics::LoadInGameResources() finished
+21:16:55.962 [ INFO    ] GameGraphics::LoadProjectilesResources() started
+21:16:55.977 [ INFO    ] GameGraphics::LoadProjectilesResources() finished
+21:16:55.977 [ INFO    ] GameGraphics::LoadSmiles() started
+21:16:56.016 [ INFO    ] GameGraphics::LoadSmiles() finished, status: success
+21:16:56.016 [ INFO    ] GfxDataTable::Load() started
+21:16:56.481 [ INFO    ] GfxDataTable::Load() finished
+21:16:56.482 [ INFO    ] GameGui::InitAllWindows() started
+21:16:56.568 [ INFO    ] GameGui::InitAllWindows() finished
+21:16:56.568 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:56.707 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:56.713 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:56.733 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:56.763 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:56.797 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:56.804 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:56.809 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:56.809 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:16:56.812 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] success
+21:16:56.812 [ INFO    ] Loading [batch] <dummy_items.csd>... [15 GB free] started...
+21:16:56.814 [ INFO    ] Loading [batch] <dummy_items.csd>... [15 GB free] success
+21:16:56.845 [ INFO    ] Before loading ui background: 15 GB are available.
+21:16:56.917 [ INFO    ] OGG file loaded, pcm samples: 2701356
+21:16:56.918 [ INFO    ] Music loaded : sounds/warspear_maintheme2_22k_mono.ogg Available free memory : 15 GB
+21:16:56.926 [ INFO    ] Menu start onshow free 15 GB
+21:16:56.929 [ INFO    ] Loading [batch] <weapons.csd>... [15 GB free] started...
+21:16:56.945 [ INFO    ] WebClient: Started: https://config.warspear.online/ws_config_1.ini?id=19181828AEC3710FA0700A671B6A3123BAA0581A8C261B7B
+21:17:02.321 [ INFO    ] Loading [batch] <weapons.csd>... [15 GB free] success
+21:17:02.322 [ INFO    ] Loading [batch] <armors.csd>... [15 GB free] started...
+21:17:02.411 [ INFO    ] Starting thread (resolver)...
+21:17:02.411 [ INFO    ] Thread #140391407941184 (resolver) started.
+21:17:02.411 [ INFO    ] Resolver #0 lookup: master.warspear.online
+21:17:02.449 [ INFO    ] Loading [batch] <armors.csd>... [15 GB free] success
+21:17:02.449 [ INFO    ] Loading [batch] <jewelry.csd>... [15 GB free] started...
+21:17:02.457 [ INFO    ] Loading [batch] <jewelry.csd>... [15 GB free] success
+21:17:02.457 [ INFO    ] Loading [batch] <quest_items.csd>... [15 GB free] started...
+21:17:02.473 [ INFO    ] Loading [batch] <quest_items.csd>... [15 GB free] success
+21:17:02.476 [ INFO    ] Loading [batch] <craft_items.csd>... [15 GB free] started...
+21:17:02.476 [ INFO    ] Loading [batch] <craft_items.csd>... [15 GB free] success
+21:17:02.476 [ INFO    ] Loading [batch] <consumables.csd>... [15 GB free] started...
+21:17:02.487 [ INFO    ] Loading [batch] <consumables.csd>... [15 GB free] success
+21:17:02.513 [ INFO    ] Loading [batch] <rune_items.csd>... [15 GB free] started...
+21:17:02.546 [ INFO    ] Loading [batch] <rune_items.csd>... [15 GB free] success
+21:17:02.579 [ INFO    ] Loading [batch] <crystal_items.csd>... [15 GB free] started...
+21:17:02.613 [ INFO    ] Loading [batch] <crystal_items.csd>... [15 GB free] success
+21:17:02.648 [ INFO    ] Loading [batch] <guts_items.csd>... [15 GB free] started...
+21:17:02.681 [ INFO    ] Loading [batch] <guts_items.csd>... [15 GB free] success
+21:17:02.711 [ INFO    ] Loading [batch] <outfit_items.csd>... [15 GB free] started...
+21:17:02.747 [ INFO    ] Loading [batch] <outfit_items.csd>... [15 GB free] success
+21:17:02.777 [ INFO    ] Loading [batch] <simple_service_items.csd>... [15 GB free] started...
+21:17:02.811 [ INFO    ] Loading [batch] <simple_service_items.csd>... [15 GB free] success
+21:17:02.843 [ INFO    ] Loading [batch] <item_packs.csd>... [15 GB free] started...
+21:17:02.876 [ INFO    ] Loading [batch] <item_packs.csd>... [15 GB free] success
+21:17:02.909 [ INFO    ] Loading [batch] <expansion_items.csd>... [15 GB free] started...
+21:17:02.942 [ INFO    ] Loading [batch] <expansion_items.csd>... [15 GB free] success
+21:17:02.974 [ INFO    ] Loading [batch] <amplifier_items.csd>... [15 GB free] started...
+21:17:03.008 [ INFO    ] Loading [batch] <amplifier_items.csd>... [15 GB free] success
+21:17:03.041 [ INFO    ] Loading [batch] <envelope_items.csd>... [15 GB free] started...
+21:17:03.075 [ INFO    ] Loading [batch] <envelope_items.csd>... [15 GB free] success
+21:17:03.106 [ INFO    ] Loading [batch] <summon_items.csd>... [15 GB free] started...
+21:17:03.141 [ INFO    ] Loading [batch] <summon_items.csd>... [15 GB free] success
+21:17:03.172 [ INFO    ] Loading [batch] <skill_book_items.csd>... [15 GB free] started...
+21:17:03.207 [ INFO    ] Loading [batch] <skill_book_items.csd>... [15 GB free] success
+21:17:03.239 [ INFO    ] Loading [batch] <skill_consumable.csd>... [15 GB free] started...
+21:17:03.272 [ INFO    ] Loading [batch] <skill_consumable.csd>... [15 GB free] success
+21:17:03.305 [ INFO    ] Loading [batch] <craft_licenses.csd>... [15 GB free] started...
+21:17:03.338 [ INFO    ] Loading [batch] <craft_licenses.csd>... [15 GB free] success
+21:17:03.371 [ INFO    ] Loading [batch] <haircut_pack_items.csd>... [15 GB free] started...
+21:17:03.405 [ INFO    ] Loading [batch] <haircut_pack_items.csd>... [15 GB free] success
+21:17:03.437 [ INFO    ] Loading [batch] <smiles_packs.csd>... [15 GB free] started...
+21:17:03.471 [ INFO    ] Loading [batch] <smiles_packs.csd>... [15 GB free] success
+21:17:03.503 [ INFO    ] Loading [batch] <resource_items.csd>... [15 GB free] started...
+21:17:03.536 [ INFO    ] Loading [batch] <resource_items.csd>... [15 GB free] success
+21:17:03.568 [ INFO    ] Loading [batch] <skill_amplifier_items.csd>... [15 GB free] started...
+21:17:03.603 [ INFO    ] Loading [batch] <skill_amplifier_items.csd>... [15 GB free] success
+21:17:03.635 [ INFO    ] Loading [batch] <simple_service_chestkey_items.csd>... [15 GB free] started...
+21:17:03.668 [ INFO    ] Loading [batch] <simple_service_chestkey_items.csd>... [15 GB free] success
+21:17:03.773 [ INFO    ] Loading [batch] <monster_data_v2.dat>... [15 GB free] started...
+21:17:03.868 [ INFO    ] Loading [batch] <monster_data_v2.dat>... [15 GB free] success
+21:17:03.899 [ INFO    ] Loading [batch] <npc_dolls.dat>... [15 GB free] started...
+21:17:03.939 [ INFO    ] Loading [batch] <npc_dolls.dat>... [15 GB free] success
+21:17:03.965 [ INFO    ] Loading [batch] <iaobjects.csd>... [15 GB free] started...
+21:17:04.032 [ INFO    ] Loading [batch] <iaobjects.csd>... [15 GB free] success
+21:17:04.065 [ INFO    ] Loading [batch] <craft_job_info.csd>... [15 GB free] started...
+21:17:04.104 [ INFO    ] Loading [batch] <craft_job_info.csd>... [15 GB free] success
+21:17:04.130 [ INFO    ] Loading [batch] <skills.csd>... [15 GB free] started...
+21:17:04.167 [ INFO    ] Loading [batch] <skills.csd>... [15 GB free] success
+21:17:04.359 [ INFO    ] Loading [batch] <web_payments.csd>... [15 GB free] started...
+21:17:04.359 [ INFO    ] Loading [batch] <web_payments.csd>... [15 GB free] success
+21:17:05.912 [ INFO    ] WebClient: Success: https://config.warspear.online/ws_config_1.ini?id=19181828AEC3710FA0700A671B6A3123BAA0581A8C261B7B; bytes 139
+21:17:05.912 [ INFO    ] ConnectionConfig: successfully refreshed
+21:17:08.782 [ INFO    ] Resolver #0 result: 85.17.202.49 2a04:88c0:4:300:a11::1
+21:17:08.783 [ WARNING ] NetClient: next timeout (#0)
+21:17:08.793 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:17:08.826 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:17:08.892 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:17:08.001 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:17:08.001 [ WARNING ] NetClient: next timeout (#1)
+21:17:09.034 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:17:09.045 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:17:09.321 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:17:09.628 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:17:09.629 [ WARNING ] NetClient: next timeout (#2)
+21:17:09.662 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:17:09.672 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:17:10.147 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:17:10.651 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:17:10.652 [ WARNING ] NetClient: next timeout (#3)
+21:17:10.685 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:17:10.695 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:17:11.664 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:17:12.687 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:17:12.687 [ WARNING ] NetClient: next timeout (#4)
+21:17:12.708 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:17:12.720 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:17:12.995 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:17:13.314 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:17:13.314 [ WARNING ] NetClient: next timeout (#5)
+21:17:13.332 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:17:13.348 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:17:13.700 [ INFO    ] NetClient: [85.17.202.49]:443 - SUCCEED
+21:17:13.700 [ INFO    ] NetClient: [85.17.202.49]:443 - connection succeeded
+21:17:15.119 [ INFO    ] Resolver #1 lookup: master.warspear.online
+21:17:15.250 [ INFO    ] Resolver #1 result: 85.17.202.49 2a04:88c0:4:300:a11::1
+21:17:15.251 [ WARNING ] NetClient: next timeout (#0)
+21:17:15.261 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:17:15.294 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:17:15.360 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:17:15.470 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:17:15.470 [ WARNING ] NetClient: next timeout (#1)
+21:17:15.503 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:17:15.513 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:17:15.789 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:17:16.096 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:17:16.096 [ WARNING ] NetClient: next timeout (#2)
+21:17:16.129 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:17:16.140 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:17:16.614 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:17:17.120 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:17:17.120 [ WARNING ] NetClient: next timeout (#3)
+21:17:17.142 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:17:17.153 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:17:17.989 [ INFO    ] NetClient: [85.17.202.49]:443 - SUCCEED
+21:17:17.989 [ INFO    ] NetClient: [85.17.202.49]:443 - connection succeeded
+21:17:18.914 [ INFO    ] Account ID: 14296947
+21:17:18.919 [ INFO    ] Resolver #2 lookup: master.warspear.online
+21:17:21.488 [ INFO    ] Resolver #2 result: 85.17.202.49 2a04:88c0:4:300:a11::1
+21:17:21.488 [ WARNING ] NetClient: next timeout (#0)
+21:17:21.499 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:17:21.531 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:17:21.596 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:17:21.706 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:17:21.706 [ WARNING ] NetClient: next timeout (#1)
+21:17:21.739 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:17:21.750 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:17:22.026 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:17:22.334 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:17:22.334 [ WARNING ] NetClient: next timeout (#2)
+21:17:22.366 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:17:22.377 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:17:22.851 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:17:23.310 [ INFO    ] NetClient: [85.17.202.49]:15129 - SUCCEED
+21:17:23.310 [ INFO    ] NetClient: [85.17.202.49]:15129 - connection succeeded
+21:17:25.447 [ INFO    ] Before download free 15 GB
+21:17:25.448 [ INFO    ] Start downloading file `http://cdn.warspear.online/diff/diff_2021-06-09_2021-06-10_337.pak`
+21:17:25.448 [ INFO    ] Resolver #3 lookup: cdn.warspear.online
+21:17:29.077 [ INFO    ] Resolver #3 result: 138.201.33.130
+21:17:33.070 [ INFO    ] HTTPDownloadFile complete: sent=194 received=27636
+21:17:39.407 [ INFO    ] HTTPDownloadFile complete: sent=402 received=290205
+21:17:43.004 [ INFO    ] HTTPDownloadFile complete: sent=615 received=552779
+21:17:46.336 [ INFO    ] HTTPDownloadFile complete: sent=828 received=815353
+21:17:49.801 [ INFO    ] HTTPDownloadFile complete: sent=1042 received=1077928
+21:17:53.531 [ INFO    ] HTTPDownloadFile complete: sent=1257 received=1340504
+21:17:57.095 [ INFO    ] HTTPDownloadFile complete: sent=1472 received=1603080
+21:18:00.559 [ INFO    ] HTTPDownloadFile complete: sent=1687 received=1865656
+21:18:05.345 [ INFO    ] HTTPDownloadFile complete: sent=1902 received=2128232
+21:18:08.975 [ INFO    ] HTTPDownloadFile complete: sent=2117 received=2390808
+21:18:12.637 [ INFO    ] HTTPDownloadFile complete: sent=2332 received=2653384
+21:18:16.070 [ INFO    ] HTTPDownloadFile complete: sent=2547 received=2915960
+21:18:19.766 [ INFO    ] HTTPDownloadFile complete: sent=2762 received=3178536
+21:18:23.330 [ INFO    ] HTTPDownloadFile complete: sent=2977 received=3441112
+21:18:24.847 [ INFO    ] HTTPDownloadFile complete: sent=3192 received=3511918
+21:18:24.848 [ INFO    ] Finish downloading
+21:18:24.848 [ INFO    ] Caching 1-th file time: 00:00:59
+21:18:24.848 [ INFO    ] Move PAK '/home/jack/.config/warspear/partially.tmp' -> '/home/jack/.config/warspear/warspear.pak.1'
+21:18:24.848 [ INFO    ] Start downloading file `http://cdn.warspear.online/diff/diff_2021-06-10_2021-06-23_338.pak`
+21:18:24.848 [ INFO    ] Resolver #4 lookup: cdn.warspear.online
+21:18:25.211 [ INFO    ] Resolver #4 result: 138.201.33.130
+21:18:25.936 [ INFO    ] HTTPDownloadFile complete: sent=3386 received=3522850
+21:18:29.797 [ INFO    ] HTTPDownloadFile complete: sent=3594 received=3785419
+21:18:33.527 [ INFO    ] HTTPDownloadFile complete: sent=3807 received=4047993
+21:18:37.255 [ INFO    ] HTTPDownloadFile complete: sent=4020 received=4310567
+21:18:40.985 [ INFO    ] HTTPDownloadFile complete: sent=4234 received=4573142
+21:18:44.681 [ INFO    ] HTTPDownloadFile complete: sent=4449 received=4835718
+21:18:45.671 [ INFO    ] HTTPDownloadFile complete: sent=4664 received=4866963
+21:18:45.671 [ INFO    ] Finish downloading
+21:18:45.671 [ INFO    ] Caching 2-th file time: 00:00:20
+21:18:45.671 [ INFO    ] Move PAK '/home/jack/.config/warspear/partially.tmp' -> '/home/jack/.config/warspear/warspear.pak.2'
+21:18:45.671 [ INFO    ] Caching completed
+21:18:45.672 [ INFO    ] Caching time: 00:01:20
+21:18:45.672 [ INFO    ] Resolver #5 lookup: master.warspear.online
+21:18:45.672 [ INFO    ] WebClient: Started: https://config.warspear.online/ws_config_1.ini?id=E58AADAA128DE54A528161626916C112D87993DFFB567A77
+21:18:45.704 [ INFO    ] Resolver #5 result: 85.17.202.49 2a04:88c0:4:300:a11::1
+21:18:45.704 [ WARNING ] NetClient: next timeout (#0)
+21:18:45.715 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:18:45.747 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:18:45.813 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:18:45.922 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:18:45.922 [ WARNING ] NetClient: next timeout (#1)
+21:18:45.956 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:18:45.967 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:18:46.067 [ INFO    ] WebClient: Success: https://config.warspear.online/ws_config_1.ini?id=E58AADAA128DE54A528161626916C112D87993DFFB567A77; bytes 139
+21:18:46.067 [ INFO    ] ConnectionConfig: successfully refreshed
+21:18:46.186 [ INFO    ] NetClient: [85.17.202.49]:15129 - SUCCEED
+21:18:46.186 [ INFO    ] NetClient: [85.17.202.49]:15129 - connection succeeded
+21:18:46.465 [ INFO    ] Before restart free 15 GB
+21:18:46.479 [ INFO    ] Steam: ticket released
+21:18:46.546 [ INFO    ] Opening pack file: /home/jack/.local/share/Steam/steamapps/common/Warspear Online MMORPG/warspear.pak; free memory: 15 GB
+21:18:46.546 [ INFO    ] Pack file version: 2021-06-09
+21:18:46.564 [ INFO    ] Opening pack file: /home/jack/.config/warspear/warspear.pak.1; free memory: 15 GB
+21:18:46.564 [ INFO    ] Pack file version: 2021-06-10
+21:18:46.564 [ DEBUG   ] Old version: 2021-06-09
+21:18:46.564 [ DEBUG   ] Try to merge /home/jack/.config/warspear/warspear.pak.1
+21:18:46.564 [ DEBUG   ] Remove deleted files started
+21:18:46.565 [ DEBUG   ] Removing finished, deleted 0 files
+21:18:46.567 [ DEBUG   ] Merging done
+21:18:46.567 [ INFO    ] Opening pack file: /home/jack/.config/warspear/warspear.pak.2; free memory: 15 GB
+21:18:46.567 [ INFO    ] Pack file version: 2021-06-23
+21:18:46.567 [ DEBUG   ] Old version: 2021-06-10
+21:18:46.567 [ DEBUG   ] Try to merge /home/jack/.config/warspear/warspear.pak.2
+21:18:46.567 [ DEBUG   ] Remove deleted files started
+21:18:46.567 [ DEBUG   ] Removing finished, deleted 1 files
+21:18:46.571 [ DEBUG   ] Merging done
+21:18:46.571 [ INFO    ] Opening pack file: /home/jack/.config/warspear/warspear.pak.3; free memory: 15 GB
+21:18:46.571 [ WARNING ] Pack file not found.
+21:18:46.572 [ INFO    ] Load String table local/kbd_layout
+21:18:46.572 [ INFO    ] Load String table local/kbd_layout passed
+21:18:46.572 [ INFO    ] Load String table local/kbd_matrix
+21:18:46.572 [ INFO    ] Load String table local/kbd_matrix passed
+21:18:46.572 [ INFO    ] Load String table client_ui_strings
+21:18:46.598 [ INFO    ] Load String table client_ui_strings passed
+21:18:46.598 [ INFO    ] Load String table strings
+21:18:46.757 [ INFO    ] Load String table strings passed
+21:18:46.759 [ INFO    ] Loading <countries.dat>... [15 GB free] success
+21:18:46.759 [ INFO    ] Account ID: 14296947
+21:18:46.759 [ INFO    ] Channel = 2
+21:18:46.759 [ INFO    ] Flurry Agent Version: No Flurry agent installed
+21:18:46.759 [ INFO    ] Trying to obtain system configuration...
+21:18:46.759 [ INFO    ] No system configuration is available.
+21:18:46.796 [ INFO    ] Steam: ticket requested
+21:18:46.797 [ INFO    ] Loading <sound_fx_enum.dat>... [15 GB free] success
+21:18:46.798 [ INFO    ] Loading <sound_fx.dat>... [15 GB free] success
+21:18:46.798 [ INFO    ] Load String table sound_files.dat
+21:18:46.799 [ INFO    ] Load String table sound_files.dat passed
+21:18:46.800 [ INFO    ] Loading <monster_sound.csd>... [15 GB free] success
+21:18:46.800 [ INFO    ] Loading <music.dat>... [15 GB free] success
+21:18:46.800 [ INFO    ] Load String table music_files.dat
+21:18:46.800 [ INFO    ] Load String table music_files.dat passed
+21:18:46.812 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:46.848 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:46.855 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:46.892 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:46.903 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:46.904 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:46.928 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:47.081 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:47.210 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:47.277 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:47.422 [ INFO    ] Steam: ticket request success
+21:18:47.422 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:47.429 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:47.450 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:47.480 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:47.514 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:47.521 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:47.526 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:47.526 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] loading...
+21:18:47.529 [ INFO    ] AnimationsDB [batch] <man/*>...  [15 GB free] success
+21:18:47.529 [ INFO    ] Loading [batch] <dummy_items.csd>... [15 GB free] started...
+21:18:47.529 [ INFO    ] Loading [batch] <dummy_items.csd>... [15 GB free] success
+21:18:47.529 [ INFO    ] Loading [batch] <weapons.csd>... [15 GB free] started...
+21:18:47.553 [ INFO    ] Loading [batch] <weapons.csd>... [15 GB free] success
+21:18:47.681 [ ERROR   ] LoadImage: fonts_176x208/digits_tiny1; Available free memory: 15 GB
+21:18:47.681 [ ERROR   ] LoadImage: fonts_176x208/digits_tiny_regular1; Available free memory: 15 GB
+21:18:47.694 [ INFO    ] Loading <mob_anim.dat>... [15 GB free] success
+21:18:47.694 [ INFO    ] Loading <regions.dat>... [15 GB free] success
+21:18:47.694 [ INFO    ] Loading <hair_colors.dat>... [15 GB free] success
+21:18:47.694 [ INFO    ] Loading <bonuses.dat>... [15 GB free] success
+21:18:47.694 [ INFO    ] Loading <hero_level_experience.dat>... [15 GB free] success
+21:18:47.694 [ INFO    ] Loading <premium_categories.dat>... [15 GB free] success
+21:18:47.694 [ INFO    ] Loading <premium_shop_categories_aliases.dat>... [15 GB free] success
+21:18:47.694 [ INFO    ] Loading <race_look.dat>... [15 GB free] success
+21:18:47.694 [ INFO    ] Loading <market_categories.dat>... [15 GB free] success
+21:18:47.695 [ INFO    ] Loading <castle_market_categories.dat>... [15 GB free] success
+21:18:47.695 [ INFO    ] Loading <envelope_bonuses.dat>... [15 GB free] success
+21:18:47.695 [ INFO    ] Loading <award_item_category.csd>... [15 GB free] success
+21:18:47.695 [ INFO    ] Loading <factions.csd>... [15 GB free] success
+21:18:47.695 [ INFO    ] Loading <guild_levels.csd>... [15 GB free] success
+21:18:47.695 [ INFO    ] Loading <guild_skills.csd>... [15 GB free] success
+21:18:47.695 [ INFO    ] Loading <skill_matrix.csd>... [15 GB free] success
+21:18:47.695 [ INFO    ] Loading <stamina.csd>... [15 GB free] success
+21:18:47.695 [ INFO    ] Loading <craft_job_slot.csd>... [15 GB free] success
+21:18:47.695 [ INFO    ] Loading <craft_profession.csd>... [15 GB free] success
+21:18:47.695 [ INFO    ] Loading <craft_result_category.csd>... [15 GB free] success
+21:18:47.695 [ INFO    ] Loading <craft_resource_professions.csd>... [15 GB free] success
+21:18:47.696 [ INFO    ] Loading <haircuts.csd>... [15 GB free] success
+21:18:47.696 [ INFO    ] Loading <haircut_packs.csd>... [15 GB free] success
+21:18:47.696 [ INFO    ] Loading <control_points.csd>... [15 GB free] success
+21:18:47.697 [ INFO    ] Loading <smiles.csd>... [15 GB free] success
+21:18:47.697 [ INFO    ] Loading <smile_packs.csd>... [15 GB free] success
+21:18:47.697 [ INFO    ] Loading <title_guild_achievements.csd>... [15 GB free] success
+21:18:47.698 [ INFO    ] Loading <achievements.csd>... [15 GB free] success
+21:18:47.699 [ INFO    ] Loading <achievements_group.csd>... [15 GB free] success
+21:18:47.700 [ INFO    ] Loading <achievements_goal.csd>... [15 GB free] success
+21:18:47.700 [ INFO    ] Loading <defined_influences.csd>... [15 GB free] success
+21:18:47.701 [ INFO    ] Loading <influences.csd>... [15 GB free] success
+21:18:47.702 [ INFO    ] Loading <skill_amplifier_bonuses.csd>... [15 GB free] success
+21:18:47.702 [ INFO    ] Loading <guild_occupations.csd>... [15 GB free] success
+21:18:47.702 [ INFO    ] Loading <guild_operation_categories.csd>... [15 GB free] success
+21:18:47.702 [ INFO    ] Loading <castles.csd>... [15 GB free] success
+21:18:47.702 [ INFO    ] Loading <castle_building_types.csd>... [15 GB free] success
+21:18:47.702 [ INFO    ] Loading <castle_buildings.csd>... [15 GB free] success
+21:18:47.703 [ INFO    ] Loading <castle_building_levels.csd>... [15 GB free] success
+21:18:47.703 [ INFO    ] Loading <castle_product_levels.csd>... [15 GB free] success
+21:18:47.704 [ INFO    ] Loading <castle_products.csd>... [15 GB free] success
+21:18:47.704 [ INFO    ] Loading <expert_slot_info.csd>... [15 GB free] success
+21:18:47.704 [ INFO    ] Loading <talents.csd>... [15 GB free] success
+21:18:47.704 [ INFO    ] Loading <talents_tree.csd>... [15 GB free] success
+21:18:47.706 [ INFO    ] Loading <territories.csd>... [15 GB free] success
+21:18:47.706 [ INFO    ] Loading <sectors.csd>... [15 GB free] success
+21:18:47.706 [ INFO    ] Loading <classes.csd>... [15 GB free] success
+21:18:47.707 [ INFO    ] Loading <hints.csd>... [15 GB free] success
+21:18:47.707 [ INFO    ] Loading <item_sets.csd>... [15 GB free] success
+21:18:47.707 [ INFO    ] Loading <currencies.csd>... [15 GB free] success
+21:18:47.707 [ INFO    ] Loading <zones.csd>... [15 GB free] success
+21:18:47.707 [ INFO    ] Loading <storage_items_filter_categories.csd>... [15 GB free] success
+21:18:47.707 [ INFO    ] Loading <account_storage_expansion_offers.csd>... [15 GB free] success
+21:18:47.751 [ INFO    ] Load String table monsters_dt.dat
+21:18:47.752 [ INFO    ] Load String table monsters_dt.dat passed
+21:18:47.752 [ INFO    ] GameGraphics::LoadInGameResources() started
+21:18:47.763 [ INFO    ] GameGraphics::LoadInGameResources() finished
+21:18:47.763 [ INFO    ] GameGraphics::LoadProjectilesResources() started
+21:18:47.778 [ INFO    ] GameGraphics::LoadProjectilesResources() finished
+21:18:47.778 [ INFO    ] GameGraphics::LoadSmiles() started
+21:18:47.816 [ INFO    ] GameGraphics::LoadSmiles() finished, status: success
+21:18:47.816 [ INFO    ] GfxDataTable::Load() started
+21:18:48.267 [ INFO    ] GfxDataTable::Load() finished
+21:18:48.268 [ INFO    ] GameGui::InitAllWindows() started
+21:18:48.298 [ INFO    ] GameGui::InitAllWindows() finished
+21:18:48.298 [ INFO    ] Loading [batch] <armors.csd>... [15 GB free] started...
+21:18:48.393 [ INFO    ] Loading [batch] <armors.csd>... [15 GB free] success
+21:18:48.393 [ INFO    ] Loading [batch] <jewelry.csd>... [15 GB free] started...
+21:18:48.400 [ INFO    ] Loading [batch] <jewelry.csd>... [15 GB free] success
+21:18:48.401 [ INFO    ] Loading [batch] <quest_items.csd>... [15 GB free] started...
+21:18:48.421 [ INFO    ] Loading [batch] <quest_items.csd>... [15 GB free] success
+21:18:48.421 [ INFO    ] Loading [batch] <craft_items.csd>... [15 GB free] started...
+21:18:48.421 [ INFO    ] Loading [batch] <craft_items.csd>... [15 GB free] success
+21:18:48.421 [ INFO    ] Loading [batch] <consumables.csd>... [15 GB free] started...
+21:18:48.427 [ INFO    ] Loading [batch] <consumables.csd>... [15 GB free] success
+21:18:48.457 [ INFO    ] Before loading ui background: 15 GB are available.
+21:18:48.668 [ INFO    ] OGG file loaded, pcm samples: 2701356
+21:18:48.668 [ INFO    ] Music loaded : sounds/warspear_maintheme2_22k_mono.ogg Available free memory : 15 GB
+21:18:48.676 [ INFO    ] Menu start onshow free 15 GB
+21:18:48.676 [ INFO    ] Loading [batch] <rune_items.csd>... [15 GB free] started...
+21:18:48.677 [ INFO    ] WebClient: Started: https://config.warspear.online/ws_config_1.ini?id=9443B3B8DD9454E56C85631F746FF975BD149C3BC8D86A35
+21:18:48.688 [ INFO    ] Loading [batch] <rune_items.csd>... [15 GB free] success
+21:18:48.688 [ INFO    ] Loading [batch] <crystal_items.csd>... [15 GB free] started...
+21:18:48.689 [ INFO    ] Loading [batch] <crystal_items.csd>... [15 GB free] success
+21:18:48.689 [ INFO    ] Loading [batch] <guts_items.csd>... [15 GB free] started...
+21:18:48.693 [ INFO    ] Loading [batch] <guts_items.csd>... [15 GB free] success
+21:18:48.694 [ INFO    ] Loading [batch] <outfit_items.csd>... [15 GB free] started...
+21:18:48.699 [ INFO    ] Loading [batch] <outfit_items.csd>... [15 GB free] success
+21:18:48.722 [ INFO    ] Loading [batch] <simple_service_items.csd>... [15 GB free] started...
+21:18:48.755 [ INFO    ] Loading [batch] <simple_service_items.csd>... [15 GB free] success
+21:18:48.788 [ INFO    ] Loading [batch] <item_packs.csd>... [15 GB free] started...
+21:18:48.821 [ INFO    ] Loading [batch] <item_packs.csd>... [15 GB free] success
+21:18:48.854 [ INFO    ] Loading [batch] <expansion_items.csd>... [15 GB free] started...
+21:18:48.887 [ INFO    ] Loading [batch] <expansion_items.csd>... [15 GB free] success
+21:18:48.920 [ INFO    ] Loading [batch] <amplifier_items.csd>... [15 GB free] started...
+21:18:48.953 [ INFO    ] Loading [batch] <amplifier_items.csd>... [15 GB free] success
+21:18:48.986 [ INFO    ] Loading [batch] <envelope_items.csd>... [15 GB free] started...
+21:18:49.021 [ INFO    ] Loading [batch] <envelope_items.csd>... [15 GB free] success
+21:18:49.052 [ INFO    ] Loading [batch] <summon_items.csd>... [15 GB free] started...
+21:18:49.085 [ INFO    ] Loading [batch] <summon_items.csd>... [15 GB free] success
+21:18:49.118 [ INFO    ] Loading [batch] <skill_book_items.csd>... [15 GB free] started...
+21:18:49.152 [ INFO    ] Loading [batch] <skill_book_items.csd>... [15 GB free] success
+21:18:49.183 [ INFO    ] Loading [batch] <skill_consumable.csd>... [15 GB free] started...
+21:18:49.218 [ INFO    ] WebClient: Success: https://config.warspear.online/ws_config_1.ini?id=9443B3B8DD9454E56C85631F746FF975BD149C3BC8D86A35; bytes 139
+21:18:49.218 [ INFO    ] ConnectionConfig: successfully refreshed
+21:18:49.218 [ INFO    ] Loading [batch] <skill_consumable.csd>... [15 GB free] success
+21:18:49.249 [ INFO    ] Loading [batch] <craft_licenses.csd>... [15 GB free] started...
+21:18:49.283 [ INFO    ] Loading [batch] <craft_licenses.csd>... [15 GB free] success
+21:18:49.316 [ INFO    ] Loading [batch] <haircut_pack_items.csd>... [15 GB free] started...
+21:18:49.349 [ INFO    ] Loading [batch] <haircut_pack_items.csd>... [15 GB free] success
+21:18:49.381 [ INFO    ] Loading [batch] <smiles_packs.csd>... [15 GB free] started...
+21:18:49.415 [ INFO    ] Loading [batch] <smiles_packs.csd>... [15 GB free] success
+21:18:49.448 [ INFO    ] Loading [batch] <resource_items.csd>... [15 GB free] started...
+21:18:49.481 [ INFO    ] Loading [batch] <resource_items.csd>... [15 GB free] success
+21:18:49.514 [ INFO    ] Loading [batch] <skill_amplifier_items.csd>... [15 GB free] started...
+21:18:49.548 [ INFO    ] Loading [batch] <skill_amplifier_items.csd>... [15 GB free] success
+21:18:49.580 [ INFO    ] Loading [batch] <simple_service_chestkey_items.csd>... [15 GB free] started...
+21:18:49.613 [ INFO    ] Loading [batch] <simple_service_chestkey_items.csd>... [15 GB free] success
+21:18:49.712 [ INFO    ] Loading [batch] <monster_data_v2.dat>... [15 GB free] started...
+21:18:49.811 [ INFO    ] Loading [batch] <monster_data_v2.dat>... [15 GB free] success
+21:18:49.844 [ INFO    ] Loading [batch] <npc_dolls.dat>... [15 GB free] started...
+21:18:49.883 [ INFO    ] Loading [batch] <npc_dolls.dat>... [15 GB free] success
+21:18:49.910 [ INFO    ] Loading [batch] <iaobjects.csd>... [15 GB free] started...
+21:18:49.951 [ INFO    ] Loading [batch] <iaobjects.csd>... [15 GB free] success
+21:18:49.976 [ INFO    ] Loading [batch] <craft_job_info.csd>... [15 GB free] started...
+21:18:50.015 [ INFO    ] Loading [batch] <craft_job_info.csd>... [15 GB free] success
+21:18:50.042 [ INFO    ] Loading [batch] <skills.csd>... [15 GB free] started...
+21:18:50.078 [ INFO    ] Loading [batch] <skills.csd>... [15 GB free] success
+21:18:50.238 [ INFO    ] Loading [batch] <web_payments.csd>... [15 GB free] started...
+21:18:50.239 [ INFO    ] Loading [batch] <web_payments.csd>... [15 GB free] success
+21:18:50.239 [ INFO    ] Resolver #6 lookup: master.warspear.online
+21:18:50.273 [ INFO    ] Resolver #6 result: 85.17.202.49 2a04:88c0:4:300:a11::1
+21:18:50.274 [ WARNING ] NetClient: next timeout (#0)
+21:18:50.284 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:18:50.317 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:18:50.382 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:18:50.491 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:18:50.491 [ WARNING ] NetClient: next timeout (#1)
+21:18:50.525 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:18:50.535 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:18:50.754 [ INFO    ] NetClient: [85.17.202.49]:15129 - SUCCEED
+21:18:50.754 [ INFO    ] NetClient: [85.17.202.49]:15129 - connection succeeded
+21:18:51.494 [ INFO    ] Resolver #7 lookup: master.warspear.online
+21:18:51.528 [ INFO    ] Resolver #7 result: 85.17.202.49 2a04:88c0:4:300:a11::1
+21:18:51.528 [ WARNING ] NetClient: next timeout (#0)
+21:18:51.538 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:18:51.570 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:18:51.636 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:18:51.745 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:18:51.746 [ WARNING ] NetClient: next timeout (#1)
+21:18:51.778 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:18:51.789 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:18:52.065 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:18:52.332 [ INFO    ] NetClient: [85.17.202.49]:443 - SUCCEED
+21:18:52.332 [ INFO    ] NetClient: [85.17.202.49]:443 - connection succeeded
+21:19:04.731 [ INFO    ] Resolver #8 lookup: master.warspear.online
+21:19:04.924 [ INFO    ] Resolver #8 result: 85.17.202.49 2a04:88c0:4:300:a11::1
+21:19:04.924 [ WARNING ] NetClient: next timeout (#0)
+21:19:04.935 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:19:04.968 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:19:05.034 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:19:05.143 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:19:05.144 [ WARNING ] NetClient: next timeout (#1)
+21:19:05.177 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:19:05.187 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:19:05.464 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:19:05.770 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:19:05.771 [ WARNING ] NetClient: next timeout (#2)
+21:19:05.793 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:19:05.804 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:19:06.288 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:19:06.794 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:19:06.794 [ WARNING ] NetClient: next timeout (#3)
+21:19:06.827 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:19:06.837 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:19:07.142 [ INFO    ] NetClient: [85.17.202.49]:443 - SUCCEED
+21:19:07.142 [ INFO    ] NetClient: [85.17.202.49]:443 - connection succeeded
+21:21:53.207 [ INFO    ] Resolver #9 lookup: master.warspear.online
+21:21:53.225 [ INFO    ] WebClient: Started: https://config.warspear.online/ws_config_1.ini?id=876D30300426D22E9BE2B99A24A0B11E73710B3BD48C2BA8
+21:21:53.225 [ INFO    ] Resolver #9 result: 85.17.202.49 2a04:88c0:4:300:a11::1
+21:21:53.225 [ WARNING ] NetClient: next timeout (#0)
+21:21:53.236 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:21:53.268 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:21:53.334 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:21:53.443 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:21:53.443 [ WARNING ] NetClient: next timeout (#1)
+21:21:53.477 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:21:53.487 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:21:53.702 [ INFO    ] NetClient: [85.17.202.49]:443 - SUCCEED
+21:21:53.702 [ INFO    ] NetClient: [85.17.202.49]:443 - connection succeeded
+21:21:53.786 [ INFO    ] WebClient: Success: https://config.warspear.online/ws_config_1.ini?id=876D30300426D22E9BE2B99A24A0B11E73710B3BD48C2BA8; bytes 139
+21:21:53.786 [ INFO    ] ConnectionConfig: successfully refreshed
+21:21:54.615 [ INFO    ] Connect to server: wsg8
+21:21:54.619 [ INFO    ] Loading <territories_5.dat>... [15 GB free] success
+21:21:54.623 [ INFO    ] Resolver #10 lookup: pearl.warspear.online
+21:21:54.975 [ INFO    ] Resolver #10 result: 85.17.202.49 2a04:88c0:4:300:2::1
+21:21:54.975 [ WARNING ] NetClient: next timeout (#0)
+21:21:54.985 [ WARNING ] NetClient: [2a04:88c0:4:300:2::1]:15204 - FAILED
+21:21:55.083 [ WARNING ] NetClient: [85.17.202.49]:15204 - TIMEOUT
+21:21:55.084 [ WARNING ] NetClient: next timeout (#1)
+21:21:55.104 [ WARNING ] NetClient: [2a04:88c0:4:300:2::1]:15204 - FAILED
+21:21:55.348 [ INFO    ] NetClient: [85.17.202.49]:15204 - SUCCEED
+21:21:55.348 [ INFO    ] NetClient: [85.17.202.49]:15204 - connection succeeded
+21:21:58.737 [ INFO    ] Loading <arena_seals.dat>... [15 GB free] success
+21:21:58.737 [ INFO    ] Hero selected: 1435904
+21:21:58.000 [ INFO    ] Entering location: 3:122:111:128
+21:21:59.002 [ INFO    ] Before resources loading: 15 GB are available.
+21:21:59.043 [ INFO    ] Loading <territories_3.dat>... [15 GB free] success
+21:21:59.045 [ INFO    ] OGG file loaded, pcm samples: 2432000
+21:21:59.045 [ INFO    ] Music loaded : sounds/town_ch.ogg Available free memory : 15 GB
+21:21:59.052 [ INFO    ] After resources loading: 15 GB are available.
+21:23:32.299 [ INFO    ] Resolver #11 lookup: master.warspear.online
+21:23:32.324 [ INFO    ] WebClient: Started: https://config.warspear.online/ws_config_1.ini?id=7B2AE59AA276E5FD8B439B70060B2042956CBCA6202D334E
+21:23:32.325 [ INFO    ] Resolver #11 result: 85.17.202.49 2a04:88c0:4:300:a11::1
+21:23:32.325 [ WARNING ] NetClient: next timeout (#0)
+21:23:32.335 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:23:32.367 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:23:32.433 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:23:32.543 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:23:32.543 [ WARNING ] NetClient: next timeout (#1)
+21:23:32.575 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:23:32.586 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:23:32.862 [ WARNING ] NetClient: [85.17.202.49]:15129 - TIMEOUT
+21:23:32.885 [ INFO    ] WebClient: Success: https://config.warspear.online/ws_config_1.ini?id=7B2AE59AA276E5FD8B439B70060B2042956CBCA6202D334E; bytes 139
+21:23:32.885 [ INFO    ] ConnectionConfig: successfully refreshed
+21:23:33.169 [ WARNING ] NetClient: [85.17.202.49]:443 - TIMEOUT
+21:23:33.169 [ WARNING ] NetClient: next timeout (#2)
+21:23:33.192 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:15129 - FAILED
+21:23:33.203 [ WARNING ] NetClient: [2a04:88c0:4:300:a11::1]:443 - FAILED
+21:23:33.485 [ INFO    ] NetClient: [85.17.202.49]:15129 - SUCCEED
+21:23:33.485 [ INFO    ] NetClient: [85.17.202.49]:15129 - connection succeeded
+21:23:49.935 [ INFO    ] Load String table local/kbd_layout
+21:23:49.935 [ INFO    ] Load String table local/kbd_layout passed
+21:23:49.935 [ INFO    ] Load String table local/kbd_matrix
+21:23:49.935 [ INFO    ] Load String table local/kbd_matrix passed
+21:23:49.935 [ INFO    ] Load String table client_ui_strings
+21:23:49.959 [ INFO    ] Load String table client_ui_strings passed
+21:23:49.960 [ INFO    ] Load String table strings
+21:23:50.155 [ INFO    ] Load String table strings passed
+21:23:51.272 [ INFO    ] Load String table local/kbd_layout
+21:23:51.272 [ INFO    ] Load String table local/kbd_layout passed
+21:23:51.272 [ INFO    ] Load String table local/kbd_matrix
+21:23:51.272 [ INFO    ] Load String table local/kbd_matrix passed
+21:23:51.272 [ INFO    ] Load String table client_ui_strings
+21:23:51.295 [ INFO    ] Load String table client_ui_strings passed
+21:23:51.295 [ INFO    ] Load String table strings
+21:23:51.493 [ INFO    ] Load String table strings passed
+21:23:57.847 [ INFO    ] Load String table local/kbd_layout
+21:23:57.847 [ INFO    ] Load String table local/kbd_layout passed
+21:23:57.847 [ INFO    ] Load String table local/kbd_matrix
+21:23:57.847 [ INFO    ] Load String table local/kbd_matrix passed
+21:23:57.847 [ INFO    ] Load String table client_ui_strings
+21:23:57.870 [ INFO    ] Load String table client_ui_strings passed
+21:23:57.870 [ INFO    ] Load String table strings
+21:23:58.067 [ INFO    ] Load String table strings passed
+21:24:00.063 [ INFO    ] Load String table local/kbd_layout
+21:24:00.063 [ INFO    ] Load String table local/kbd_layout passed
+21:24:00.063 [ INFO    ] Load String table local/kbd_matrix
+21:24:00.063 [ INFO    ] Load String table local/kbd_matrix passed
+21:24:00.063 [ INFO    ] Load String table client_ui_strings
+21:24:00.071 [ INFO    ] Load String table client_ui_strings passed
+21:24:00.071 [ INFO    ] Load String table strings
+21:24:00.170 [ INFO    ] Load String table strings passed
+21:24:00.887 [ INFO    ] Load String table local/kbd_layout
+21:24:00.887 [ INFO    ] Load String table local/kbd_layout passed
+21:24:00.887 [ INFO    ] Load String table local/kbd_matrix
+21:24:00.887 [ INFO    ] Load String table local/kbd_matrix passed
+21:24:00.887 [ INFO    ] Load String table client_ui_strings
+21:24:00.909 [ INFO    ] Load String table client_ui_strings passed
+21:24:00.910 [ INFO    ] Load String table strings
+21:24:01.107 [ INFO    ] Load String table strings passed
+21:24:02.086 [ INFO    ] Load String table client_ui_strings
+21:24:02.108 [ INFO    ] Load String table client_ui_strings passed
+21:24:02.108 [ INFO    ] Load String table strings
+21:24:02.296 [ INFO    ] Load String table strings passed
+21:24:02.959 [ INFO    ] Load String table local/kbd_layout
+21:24:02.959 [ INFO    ] Load String table local/kbd_layout passed
+21:24:02.959 [ INFO    ] Load String table local/kbd_matrix
+21:24:02.959 [ INFO    ] Load String table local/kbd_matrix passed
+21:24:02.960 [ INFO    ] Load String table client_ui_strings
+21:24:02.984 [ INFO    ] Load String table client_ui_strings passed
+21:24:02.984 [ INFO    ] Load String table strings
+21:24:03.180 [ INFO    ] Load String table strings passed
+21:24:04.511 [ INFO    ] Load String table local/kbd_layout
+21:24:04.511 [ INFO    ] Load String table local/kbd_layout passed
+21:24:04.511 [ INFO    ] Load String table local/kbd_matrix
+21:24:04.511 [ INFO    ] Load String table local/kbd_matrix passed
+21:24:04.511 [ INFO    ] Load String table client_ui_strings
+21:24:04.534 [ INFO    ] Load String table client_ui_strings passed
+21:24:04.534 [ INFO    ] Load String table strings
+21:24:04.732 [ INFO    ] Load String table strings passed
+21:24:05.664 [ INFO    ] Load String table local/kbd_layout
+21:24:05.664 [ INFO    ] Load String table local/kbd_layout passed
+21:24:05.664 [ INFO    ] Load String table local/kbd_matrix
+21:24:05.664 [ INFO    ] Load String table local/kbd_matrix passed
+21:24:05.664 [ INFO    ] Load String table client_ui_strings
+21:24:05.685 [ INFO    ] Load String table client_ui_strings passed
+21:24:05.686 [ INFO    ] Load String table strings
+21:24:05.882 [ INFO    ] Load String table strings passed
+21:24:06.839 [ INFO    ] Load String table local/kbd_layout
+21:24:06.839 [ INFO    ] Load String table local/kbd_layout passed
+21:24:06.839 [ INFO    ] Load String table local/kbd_matrix
+21:24:06.839 [ INFO    ] Load String table local/kbd_matrix passed
+21:24:06.839 [ INFO    ] Load String table client_ui_strings
+21:24:06.850 [ INFO    ] Load String table client_ui_strings passed
+21:24:06.850 [ INFO    ] Load String table strings
+21:24:06.975 [ INFO    ] Load String table strings passed
+21:24:07.751 [ INFO    ] Load String table local/kbd_layout
+21:24:07.751 [ INFO    ] Load String table local/kbd_layout passed
+21:24:07.751 [ INFO    ] Load String table local/kbd_matrix
+21:24:07.751 [ INFO    ] Load String table local/kbd_matrix passed
+21:24:07.751 [ INFO    ] Load String table client_ui_strings
+21:24:07.764 [ INFO    ] Load String table client_ui_strings passed
+21:24:07.764 [ INFO    ] Load String table strings
+21:24:07.967 [ INFO    ] Load String table strings passed
+21:24:10.191 [ INFO    ] Load String table client_ui_strings
+21:24:10.209 [ INFO    ] Load String table client_ui_strings passed
+21:24:10.209 [ INFO    ] Load String table strings
+21:24:10.383 [ INFO    ] Load String table strings passed
+21:25:08.848 [ INFO    ] Entering location: 3:122:111:180
+21:25:08.849 [ INFO    ] Before resources loading: 15 GB are available.
+21:25:08.899 [ INFO    ] After resources loading: 15 GB are available.
+21:25:22.148 [ INFO    ] Entering location: 3:122:111:128
+21:25:22.148 [ INFO    ] Before resources loading: 15 GB are available.
+21:25:22.157 [ INFO    ] After resources loading: 15 GB are available.
+21:25:38.128 [ INFO    ] Loading <location_layers_3.csd>... [15 GB free] success
+21:25:38.129 [ INFO    ] Loading <territories_3.dat>... [15 GB free] success
+21:25:38.134 [ INFO    ] Loading <territories_3.dat>... [15 GB free] success
+21:27:06.095 [ INFO    ] Before exiting from gameplay: 15 GB are available.
+21:27:06.100 [ INFO    ] Before loading ui background: 15 GB are available.
+21:27:06.207 [ INFO    ] OGG file loaded, pcm samples: 2701356
+21:27:06.207 [ INFO    ] Music loaded : sounds/warspear_maintheme2_22k_mono.ogg Available free memory : 15 GB
+21:27:06.215 [ INFO    ] Menu start onshow free 15 GB
+21:27:06.216 [ INFO    ] WebClient: Started: https://config.warspear.online/ws_config_1.ini?id=3C3383D7062CBD656C5BA2A4C63EBD6F2831441BD6B8BA52
+21:27:06.890 [ INFO    ] WebClient: Success: https://config.warspear.online/ws_config_1.ini?id=3C3383D7062CBD656C5BA2A4C63EBD6F2831441BD6B8BA52; bytes 139
+21:27:06.890 [ INFO    ] ConnectionConfig: successfully refreshed
+21:27:15.279 Exit game
+21:27:15.289 [ INFO    ] Steam: ticket released
+21:27:15.401 [ INFO    ] Stopping thread #140391893567040 (openal)...

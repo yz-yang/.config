@@ -1,0 +1,38 @@
+
+-------- SESSION 2021-06-03T01:33:45.261Z (10.1.2+202004142327, linux, x64, 16175374336, XMind Ltd., vana_linux_64) --------
+[I 2021-06-03T01:33:45.301Z main:store:plugins:memento] Migration start
+[I 2021-06-03T01:33:45.304Z main:store:plugins:memento] Migration stop, vud directory doesn't exist
+[I 2021-06-03T01:33:45.304Z main:store:plugins:memento] Migration completed [] . used time: 0 sec.
+[I 2021-06-03T01:33:45.305Z main:store:plugins:memento] Migration 2 start
+[I 2021-06-03T01:33:45.305Z main:store:plugins:memento] Migration 2 completed.
+[I 2021-06-03T01:33:45.305Z main:store:plugins:memento] Migration 3 start
+[I 2021-06-03T01:33:45.305Z main:store:plugins:memento] perMachineLicense.json Reading...
+[I 2021-06-03T01:33:45.305Z main:store:plugins:memento] Migration 3 completed.
+[I 2021-06-03T01:33:45.395Z main:store:plugins:iap] The user is not allowed to make in-app purchase.
+[I 2021-06-03T01:33:45.908Z main:store:plugins:electron] Application will finish launching.
+[I 2021-06-03T01:33:45.922Z main:store:plugins:electron] Application arguments: ["/usr/lib/electron5/electron","/usr/share/XMind2020/app.asar"]
+[I 2021-06-03T01:33:45.939Z main:store:plugins:electron] Application is ready.
+[I 2021-06-03T01:33:46.065Z main:store:plugins:electron] Device ID: db6da399-8cbe-4aea-a26b-7330fd66f230
+[I 2021-06-03T01:33:52.711Z main:store:plugins:open-handler] Recover: Map {}
+[I 2021-06-03T01:33:52.712Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2021-06-03T01:33:52.712Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2021-06-03T01:33:52.712Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2021-06-03T01:33:52.712Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2021-06-03T01:34:13.546Z promotion] Event id: jun-2021-promotion
+[I 2021-06-03T01:34:51.205Z fonts] start get system fonts
+[I 2021-06-03T01:34:52.488Z fonts] Consuming 1283 ms to get system fonts
+[I 2021-06-03T01:34:52.713Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2021-06-03T01:34:52.714Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2021-06-03T01:35:22.807Z snowbrush] Export image time: from 1622684122806 to 1622684122807.
+[I 2021-06-03T01:35:37.931Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2021-06-03T01:35:42.058Z main:store:plugins:editors:EditorFrame] Not find editor view: undefined file:///usr/share/XMind2020/app.asar/renderer/editor-frame.html?frameId=1&_apr=default
+[I 2021-06-03T01:35:42.136Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2021-06-03T01:35:42.291Z main:store:plugins:electron] Application is intended to quit.
+[I 2021-06-03T01:35:42.291Z main:store:plugins:electron] Asking all editors to close their documents...
+[I 2021-06-03T01:35:42.322Z main:store:plugins:editors:EditorFrame] Frame 1 webContents destroyed
+[I 2021-06-03T01:35:42.350Z main:store:plugins:electron] All documents are closed.
+[I 2021-06-03T01:35:42.352Z main:store:plugins:activation-updater] Stop updating per-machine license information periodically.
+[I 2021-06-03T01:35:42.352Z main:store:plugins:activation-updater] Stop updating subscription information periodically.
+[I 2021-06-03T01:35:42.361Z main:store:plugins:electron] Application is intended to quit.
+[I 2021-06-03T01:35:42.361Z main:store:plugins:electron] Application will quit.
+[I 2021-06-03T01:35:42.362Z main:store:plugins:electron] Application quitted.

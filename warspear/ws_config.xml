@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Config>
+	<Common language="en" country="89" input_type="1" snd_volume="40" mus_volume="24" show_nicks="true" show_levels="false" show_guilds="true" show_special_markers="true" nicks_align="2" act_on_double_tap="false" show_minimap="true" show_damage="31" show_ally_healing="31" show_mini_boss_health_bar="true" show_boss_health_bar="true" show_raid_boss_health_bar="true" show_control_point_health_bar="true" skill_on_self_modifier_key="1" skill_on_self_modifier_key_activate="true" notify_on_friend_enter_leave="true" popup_on_new_rare_craft_jobs="true" show_popup_messages="true" close_menus_on_side_tap="true" use_active_group_elements="true" use_detailed_group_elements="false" align_hotkeys_panel="3" use_opaque_menus="false" show_quest_navigator="true" show_help="true" save_password="true" chat_location="true" chat_trade="true" chat_party="true" chat_private="true" chat_info="true" chat_support="true" chat_guild="true" chat_alliance="true" chat_censor="true" chat_hot_send="false" last_account_id="14296947" license_accepted="true" last_bound_plugin_type="0">
+		<SocialNetworksPlugins>
+			<Plugin provider_id="2" is_bound="true" user_name="zhuo_19910911" />
+		</SocialNetworksPlugins>
+		<Login value="31F6EEDBF0E3599C72DA5AEBB0EEEF0AECED3E03AD6BC1BC6B994D3D229BFEB0B856" crc_1="1614653564" crc_2="1926519793" />
+		<Pass value="B71B8FF64BD548E7D510B662ADEA8970C4F22BD6A983B3C9F9BC95251BC6032B9056" crc_1="553069409" crc_2="497928310" />
+	</Common>
+	<Server id="wsg8">
+		<Player id="1435904">
+			<Hotkey type="0" id="208" />
+			<Hotkey type="0" id="209" />
+			<Hotkey type="0" id="210" />
+			<Hotkey type="0" id="212" />
+			<Hotkey type="0" id="211" />
+			<Hotkey type="1" id="6581" />
+			<Hotkey type="1" id="6583" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+			<Hotkey type="255" id="0" />
+		</Player>
+	</Server>
+	<Help version="3">
+		<Topic id="14" />
+		<Hint id="2" />
+		<Hint id="4" />
+		<Hint id="5" />
+		<Hint id="14" />
+		<Hint id="25" />
+		<Hint id="26" />
+		<Hint id="35" />
+	</Help>
+	<LastSelected server="8" hero="1435904" />
+</Config>

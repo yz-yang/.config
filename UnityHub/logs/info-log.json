@@ -1,0 +1,71 @@
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2021-07-10T16:47:45.367Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2021-07-10T16:47:45.368Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.4.4' ]","timestamp":"2021-07-10T16:47:45.382Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: /home/jack/AppImage/UnityHub.AppImage' ]","timestamp":"2021-07-10T16:47:45.382Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 7 4800U with Radeon Graphics; Linux (5.12.12-arch1-1)' ]","timestamp":"2021-07-10T16:47:45.400Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2021-07-10T16:47:45.418Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2021-07-10T16:47:45.419Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2021-07-10T16:47:48.936Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:48.941Z"}
+{"moduleName":"TokenManager","level":"warn","message":"[ 'Token storage is corrupted.',\n  [Error: The name org.freedesktop.secrets was not provided by any .service files] ]","timestamp":"2021-07-10T16:47:48.954Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:48.955Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:48.957Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2021-07-10T16:47:48.957Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2021-07-10T16:47:48.961Z"}
+{"moduleName":"customInstallLocation","level":"info","message":"[ 'Custom install path not present.' ]","timestamp":"2021-07-10T16:47:48.963Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/jack/Unity/Hub/Editor' ]","timestamp":"2021-07-10T16:47:48.964Z"}
+{"moduleName":"customInstallLocation","level":"info","message":"[ 'Cannot scan custom location (no path set).' ]","timestamp":"2021-07-10T16:47:48.964Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2021-07-10T16:47:48.966Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:48.967Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:48.968Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2021-07-10T16:47:48.968Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2021-07-10T16:47:48.976Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:48.997Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2021-07-10T16:47:48.999Z"}
+{"moduleName":"UnityLicenseCore","level":"warn","message":"[ 'License File is not available.' ]","timestamp":"2021-07-10T16:47:49.001Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2021-07-10T16:47:49.002Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> notLogin' ]","timestamp":"2021-07-10T16:47:49.002Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2021-07-10T16:47:49.003Z"}
+{"moduleName":"UnityPackageManagerService","level":"info","message":"[ 'Dynamic templates config loaded: [object Object]' ]","timestamp":"2021-07-10T16:47:53.126Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:53.126Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2021-07-10T16:47:53.129Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2021-07-10T16:47:53.129Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2021-07-10T16:47:53.131Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2021-07-10T16:47:54.419Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2021-07-10T16:47:54.420Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'beta version was detected: 3.0.0-beta.1' ]","timestamp":"2021-07-10T16:47:54.765Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:54.765Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2021-07-10T16:47:54.766Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2021-07-10T16:47:54.766Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2021-07-10T16:47:54.766Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2021-07-10T16:47:54.766Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2021-07-10T16:47:54.766Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2021-07-10T16:47:54.767Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2021-07-10T16:47:54.772Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:54.773Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2021-07-10T16:47:54.775Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:54.776Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:54.777Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:54.777Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:54.778Z"}
+{"moduleName":"EditorPrefLinux","level":"warn","message":"[ { [Error: ENOENT: no such file or directory, open '/home/jack/.local/share/unity3d/prefs']\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/jack/.local/share/unity3d/prefs' } ]","timestamp":"2021-07-10T16:47:54.780Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2021-07-10T16:47:54.782Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:54.782Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2021-07-10T16:47:54.783Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2021-07-10T16:47:54.809Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2021-07-10T16:47:54.809Z"}
+{"moduleName":"EditorPrefLinux","level":"warn","message":"[ { [Error: ENOENT: no such file or directory, open '/home/jack/.local/share/unity3d/prefs']\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/jack/.local/share/unity3d/prefs' } ]","timestamp":"2021-07-10T16:47:56.134Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://id.unity.com/en/conversations/2fcae519-e605-44b6-a847-04f477018c7000bf/connect_qrcode_to?to_view=toNormalLogin. Error: -3 - ' ]","timestamp":"2021-07-10T16:48:32.863Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://id.unity.com/en/conversations/2fcae519-e605-44b6-a847-04f477018c7000bf. Error: -3 - ' ]","timestamp":"2021-07-10T16:49:13.916Z"}
+{"moduleName":"PackageFinder","level":"warn","message":"[ { [Error: ENOENT: no such file or directory, scandir '/home/jack/.local/share/unity3d/Asset Store-5.x']\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'scandir',\n    path: '/home/jack/.local/share/unity3d/Asset Store-5.x' } ]","timestamp":"2021-07-10T16:51:38.970Z"}
+{"moduleName":"UnityLicenseCore","level":"warn","message":"[ 'License File is not available.' ]","timestamp":"2021-07-10T16:52:05.647Z"}
+{"moduleName":"UnityLicenseCore","level":"warn","message":"[ 'License File is not available.' ]","timestamp":"2021-07-10T16:52:34.230Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: license.change' ]","timestamp":"2021-07-10T16:52:45.314Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.opened' ]","timestamp":"2021-07-10T16:52:45.315Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.create' ]","timestamp":"2021-07-10T16:52:45.315Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.createTemp' ]","timestamp":"2021-07-10T16:52:45.315Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.openedFromCloud' ]","timestamp":"2021-07-10T16:52:45.316Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: main-window.change' ]","timestamp":"2021-07-10T16:52:45.316Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'stopping web socket server. closing connections' ]","timestamp":"2021-07-10T16:52:45.316Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'emit stop child process of /tmp/Unity-hubIPCService.sock' ]","timestamp":"2021-07-10T16:52:45.317Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC server /tmp/Unity-hubIPCService.sock and client closed' ]","timestamp":"2021-07-10T16:52:45.317Z"}

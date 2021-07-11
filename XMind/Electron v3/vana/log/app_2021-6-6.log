@@ -1,0 +1,21 @@
+
+-------- SESSION 2021-06-06T03:17:01.537Z (10.1.2+202004142327, linux, x64, 16175374336, XMind Ltd., vana_linux_64) --------
+[I 2021-06-06T03:17:01.673Z main:store:plugins:iap] The user is not allowed to make in-app purchase.
+[I 2021-06-06T03:17:01.951Z main:store:plugins:electron] Application will finish launching.
+[I 2021-06-06T03:17:01.965Z main:store:plugins:electron] Application arguments: ["/usr/lib/electron5/electron","/usr/share/XMind2020/app.asar"]
+[I 2021-06-06T03:17:01.969Z main:store:plugins:electron] Application is ready.
+[I 2021-06-06T03:17:01.990Z main:store:plugins:open-handler] Recover: Map {}
+[I 2021-06-06T03:17:01.994Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2021-06-06T03:17:01.995Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2021-06-06T03:17:01.995Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2021-06-06T03:17:01.995Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2021-06-06T03:17:02.084Z main:store:plugins:electron] Device ID: db6da399-8cbe-4aea-a26b-7330fd66f230
+[W 2021-06-06T03:17:02.992Z Notification] wrong url from event id: jun-2021-big-sale-cn
+[I 2021-06-06T03:17:33.958Z main:store:plugins:electron] Application is intended to quit.
+[I 2021-06-06T03:17:33.959Z main:store:plugins:electron] Asking all editors to close their documents...
+[I 2021-06-06T03:17:33.960Z main:store:plugins:electron] All documents are closed.
+[I 2021-06-06T03:17:33.960Z main:store:plugins:activation-updater] Stop updating per-machine license information periodically.
+[I 2021-06-06T03:17:33.960Z main:store:plugins:activation-updater] Stop updating subscription information periodically.
+[I 2021-06-06T03:17:34.014Z main:store:plugins:electron] Application is intended to quit.
+[I 2021-06-06T03:17:34.014Z main:store:plugins:electron] Application will quit.
+[I 2021-06-06T03:17:34.014Z main:store:plugins:electron] Application quitted.

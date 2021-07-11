@@ -1,0 +1,155 @@
+{
+   "checksum": "5cbd01ecaca90d05058bee3d41e39356",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13266937281577029",
+            "guid": "a383d816-67fe-450d-983f-ae9788727ff2",
+            "id": "5",
+            "name": "百度",
+            "type": "url",
+            "url": "https://www.baidu.com/"
+         }, {
+            "children": [ {
+               "date_added": "13266937384766062",
+               "guid": "0b89b0ec-4d12-4815-9581-31d4f7646972",
+               "id": "7",
+               "name": "哔哩哔哩",
+               "type": "url",
+               "url": "https://www.bilibili.com/"
+            }, {
+               "date_added": "13266980883293494",
+               "guid": "4391475b-0aed-43c8-bb24-d325deecebe6",
+               "id": "9",
+               "name": "Arch Linux (简体中文) - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/title/Arch_Linux_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)"
+            }, {
+               "date_added": "13267008221364898",
+               "guid": "33e7e7c5-52d4-48a3-8024-235c016338c4",
+               "id": "14",
+               "name": "牛客题库",
+               "type": "url",
+               "url": "https://www.nowcoder.com/activity/oj"
+            }, {
+               "date_added": "13267082349979499",
+               "guid": "e253afc8-aed7-4a1f-baa0-2e364883fb23",
+               "id": "16",
+               "name": "GitHub",
+               "type": "url",
+               "url": "https://github.com/"
+            }, {
+               "date_added": "13267335736515293",
+               "guid": "c5d1b13f-4e12-4e19-8aa7-9a5297fec5f3",
+               "id": "26",
+               "name": "Albion新手自力更生指引 - 哔哩哔哩专栏",
+               "type": "url",
+               "url": "https://www.bilibili.com/read/cv7663050"
+            }, {
+               "date_added": "13267449413249003",
+               "guid": "07941064-4fb5-4c7a-b2ac-ff5284f93c3f",
+               "id": "28",
+               "name": "CSDN ",
+               "type": "url",
+               "url": "https://www.csdn.net/"
+            } ],
+            "date_added": "13266937320754223",
+            "date_modified": "13267962648022741",
+            "guid": "847f1b25-4071-4a06-b0ed-632a323871c3",
+            "id": "6",
+            "name": "学习网站",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13267001491340947",
+               "guid": "3c329771-5ce8-479d-9f3c-ac0f8bd7f2c8",
+               "id": "11",
+               "name": "壁纸网站",
+               "type": "url",
+               "url": "https://wall.alphacoders.com/search.php?search=ocean"
+            }, {
+               "date_added": "13267166880735938",
+               "guid": "3c1d0b98-ca8f-4017-baf2-92e5f48e1244",
+               "id": "20",
+               "name": "ProcessOn",
+               "type": "url",
+               "url": "https://www.processon.com/diagrams"
+            }, {
+               "date_added": "13267962648022741",
+               "guid": "f4edf117-94b6-4fd0-97f0-547ee33b3574",
+               "id": "30",
+               "name": "Python交互式编程",
+               "type": "url",
+               "url": "http://www.pythontutor.com/visualize.html#mode=display"
+            } ],
+            "date_added": "13267001506194838",
+            "date_modified": "13268417832954140",
+            "guid": "e6b4ac26-70c5-4ee7-96ac-32271284f3f6",
+            "id": "12",
+            "name": "工具网站",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13269007823816232",
+               "guid": "068e5293-8ec0-4e22-a6d6-14c4abc19e24",
+               "id": "39",
+               "name": "网易云音乐",
+               "type": "url",
+               "url": "https://music.163.com/"
+            } ],
+            "date_added": "13269007818065293",
+            "date_modified": "13269007826978430",
+            "guid": "5f10517c-235c-4606-a7e5-8841aa2fe897",
+            "id": "38",
+            "name": "娱乐",
+            "type": "folder"
+         }, {
+            "date_added": "13267249766667096",
+            "guid": "fe77fc03-36e9-4118-bafe-c73afca7afa9",
+            "id": "24",
+            "name": "中软",
+            "type": "url",
+            "url": "https://ics.chinasoftinc.com/page?presuuid=40289d743f0a2d14013f0a2f8e5c0001"
+         }, {
+            "date_added": "13268417832954140",
+            "guid": "19cccd60-0149-4824-9ed5-3aa0698bfa79",
+            "id": "32",
+            "name": "【USB通信原理】USB传输模型 USB传输基本原理 - FPGA 学习小组 - 电子技术论坛 - 广受欢迎的专业电子论坛!",
+            "type": "url",
+            "url": "https://bbs.elecfans.com/jishu_1679735_1_1.html"
+         }, {
+            "date_added": "13268491321223319",
+            "guid": "9a0a3646-6924-4019-941d-53947bb9fac6",
+            "id": "36",
+            "name": "socks5代理使用和安装配置",
+            "type": "url",
+            "url": "https://www.cnblogs.com/tielemao/p/8430780.html"
+         } ],
+         "date_added": "13266921761784380",
+         "date_modified": "13269007823816232",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13266921761784382",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13266921761784384",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
